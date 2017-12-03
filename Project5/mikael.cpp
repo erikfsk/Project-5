@@ -10,7 +10,6 @@ using namespace std;
 using namespace arma;
 ofstream ofile;
 
-void writeArraysToFile(mat, string[], int, int);
 void matrixTransactions(int, int, int, double, mat&);
 
 int main(int argc, char const *argv[])
@@ -18,7 +17,7 @@ int main(int argc, char const *argv[])
 	// "Initial conditions"
 	int N = 500;
 	int transactions = int(pow(10,7));
-	int mcc = 100;
+	int mcc = 1000;
 	double saving = atof(argv[1]);
 	double m0 = atof(argv[2]);
 	string filename = argv[3];
@@ -64,29 +63,3 @@ void matrixTransactions(int N, int mcc, int transactions, double saving, mat& ag
 		if(i%(int(mcc/20.0)) == 0){cout<<"="<<std::flush;}
 	} cout << endl;
 }
-
-void writeArraysToFile(mat arrays, string labels[], int N, int mcc){
-
-}
-
-
-
-/*
-void WriteResultstoFile(int NSpins, int mcc, double temperature, vec ExpectationValues, int accept)
-{
-	double norm = 1.0/((double) (mcc));  // divided by  number of cycles
-	double E_ExpectationValues = ExpectationValues(0)*norm;
-	double E2_ExpectationValues = ExpectationValues(1)*norm;
-	double M_ExpectationValues = ExpectationValues(2)*norm;
-	double M2_ExpectationValues = ExpectationValues(3)*norm;
-	double Mabs_ExpectationValues = ExpectationValues(4)*norm;
-	// all expectation values are per spin, divide by 1/NSpins/NSpins
-	double Evariance = (E2_ExpectationValues- E_ExpectationValues*E_ExpectationValues)/NSpins/NSpins;
-	double Mvariance = (M2_ExpectationValues - Mabs_ExpectationValues*Mabs_ExpectationValues)/NSpins/NSpins;
-	ofile << setiosflags(ios::showpoint | ios::uppercase);
-	ofile << setw(15) << setprecision(8) << mcc;
-	ofile << setw(15) << setprecision(8) << accept;
-	ofile << setw(15) << setprecision(8) << E_ExpectationValues/NSpins/NSpins;
-	ofile << setw(15) << setprecision(8) << Mabs_ExpectationValues/NSpins/NSpins << endl;
-} // end output function
-*/

@@ -11,15 +11,16 @@
 using namespace  std;
 using namespace arma;
 
-// Function to initialise energy and magnetization
+
 void Assignment_A(int N, int MCcycles, double saving, vec& agents);
+void Assignment_D(int N, int MCcycles, double saving, vec& agents, double alpha);
 
 int main(int argc, char* argv[])
 {
   string filename;
-  int Nagents = 500;
+  int Nagents = 1000;
   int MCcycles = int(pow(10,7));
-  int simulations = 96;
+  int simulations = 1000;
   double mu,intial_money;
 
   if (argc <= 3) {
@@ -44,7 +45,9 @@ int main(int argc, char* argv[])
   for(int i = 0; i < simulations/numprocs; i++){
 
     vec Simualation_Agents = ones<vec>(Nagents)*intial_money;
-    Assignment_A(Nagents, MCcycles, mu, Simualation_Agents);
+    
+    Assignment_A(Nagents, MCcycles, mu + 0.30*my_rank, Simualation_Agents);
+    // Assignment_D(Nagents, MCcycles, mu, Simualation_Agents, 0.5 + my_rank*0.5);
 
     for(int nr = 0; nr < Nagents; nr++){
       Agents(nr,i) = Simualation_Agents(nr);
@@ -77,6 +80,27 @@ void Assignment_A(int N, int MCcycles, double saving, vec& agents)
     double dm = (1-saving)*(eps*agents(l)-(1-eps)*agents(k));
     agents(k) += dm;
     agents(l) -= dm;
+    j++;
+  }
+}
+
+void Assignment_D(int N, int MCcycles, double saving, vec& agents, double alpha)
+{
+  std::random_device rd;
+  std::mt19937_64 gen(rd());
+  std::uniform_real_distribution<double> rand(0.0,1.0);
+
+  int j = 0;
+  while(j < MCcycles){
+    int k = (int)(N*rand(gen));
+    int l = (int)(N*rand(gen));
+    if(k == l){continue;}
+    if(rand(gen) < pow(fabs(agents(k)-agents(l)),-alpha)){
+      double eps = rand(gen);
+      double dm = (1-saving)*(eps*agents(l)-(1-eps)*agents(k));
+      agents(k) += dm;
+      agents(l) -= dm;
+    }
     j++;
   }
 }
