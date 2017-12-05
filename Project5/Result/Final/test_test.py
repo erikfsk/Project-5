@@ -12,8 +12,8 @@ for txtfile in txtfiles:
 	data = data_dict(txtfile)
 	label_text = "$\\alpha = $" + txtfile[0:1]
 	label_text += "   $\lambda = $" + str(float(txtfile[-7:-6])/10)
-	label_text += "   $\gamma = $" + txtfile[-5:-4]
-	if "ny" in txtfile:
+	label_text += "   $\gamma = $" + str(int(txtfile[-5:-4])+1)
+	if "2" in txtfile[0:1]:
 		plot(data["X"],data["Y"]*100,"g-",label=label_text)
 	else:
 		plot(data["X"],data["Y"]*100,"r-",label=label_text)

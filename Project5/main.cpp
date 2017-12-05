@@ -16,7 +16,7 @@ ofstream ofile;
 
 void Assignment_A(int N, int MCcycles, double saving, vec& agents);
 void Assignment_D(int N, int MCcycles, double saving, vec& agents, double alpha);
-void Assignment_E(int N, int MCcycles, double saving, vec& agents, double alpha, double gamma);
+void Assignment_E(int N, int MCcycles, double saving, vec& agents, double alpha, double gamma, mat& interactions);
 void WriteResultstoFile(vec intervales, int length);
 void Progress_bar(int my_rank,int simulations,int i, int& progress);
 void Progress_bar_done(int my_rank);
@@ -56,9 +56,10 @@ int main(int argc, char* argv[])
 
   int progress = 1;
   mat Agents = ones<mat>(Nagents,simulations)*intial_money;
+  vec Simualation_Agents = ones<vec>(Nagents)*intial_money;
+  mat interactions = ones<mat>(Nagents,Nagents);
   for(int i = 0; i < simulations; i++){
 
-    vec Simualation_Agents = ones<vec>(Nagents)*intial_money;
     
     // Progress bar
     Progress_bar(my_rank,simulations,i,progress);
@@ -69,7 +70,7 @@ int main(int argc, char* argv[])
 
     // Assignment_A(Nagents, MCcycles, mu + 0.30*my_rank, Simualation_Agents);
     // Assignment_D(Nagents, MCcycles, mu, Simualation_Agents, 0.5 + my_rank*0.5);
-    Assignment_E(Nagents, MCcycles, mu, Simualation_Agents, 1,1+1*my_rank);
+    Assignment_E(Nagents, MCcycles, mu, Simualation_Agents, 1,3 + 1*my_rank, interactions);
 
     // Fill matrix with data for a simulation
     for(int nr = 0; nr < Nagents; nr++){
@@ -78,18 +79,19 @@ int main(int argc, char* argv[])
 
   }
 
+
   // Make a histogram data to write to file 
   int length = 1000;
   vec intervales = zeros(length);
   for(int i = 0; i < Nagents; i++){
-    for(int j = 0; j < simulations/numprocs; j++){
+    for(int j = 0; j < simulations; j++){
       int index = (int)(Agents(i,j)*100)%length;
       intervales(index) += 1;
     }
   }
   
   // write to file
-  string fileout = filename+"_"+to_string(my_rank)+".txt";
+  string fileout = filename+"_"+to_string(my_rank+3)+".txt";
   ofile.open(fileout);
   ofile << "X" << setw(15) << "Y" << endl;
   WriteResultstoFile(intervales,length);
@@ -154,7 +156,7 @@ void Assignment_D(int Nagents, int MCcycles, double saving, vec& agents, double 
   }
 }
 
-void Assignment_E(int Nagents, int MCcycles, double saving, vec& agents, double alpha, double gamma)
+void Assignment_E(int Nagents, int MCcycles, double saving, vec& agents, double alpha, double gamma,mat& interactions)
 {
   // initializing random generator
   std::random_device rd;
@@ -164,7 +166,7 @@ void Assignment_E(int Nagents, int MCcycles, double saving, vec& agents, double 
 
 
   double max_interactions = 1.;
-  mat interactions = ones<mat>(Nagents,Nagents);
+  
   int j = 0;
   while(j < MCcycles){
 
@@ -255,7 +257,7 @@ void Progress_bar(int my_rank,int simulations,int i, int& progress)
 
 void Progress_bar_done(int my_rank)
 {
-  // PROGRESSBAR
+  // PROGRESSBAR - DONE
   string output = "";
   for(int line = 0; line < my_rank+1; line++){
     output += "\n";
