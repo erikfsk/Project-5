@@ -70,7 +70,7 @@ int main(int argc, char* argv[])
 
     // Assignment_A(Nagents, MCcycles, mu + 0.30*my_rank, Simualation_Agents);
     // Assignment_D(Nagents, MCcycles, mu, Simualation_Agents, 0.5 + my_rank*0.5);
-    Assignment_E(Nagents, MCcycles, mu, Simualation_Agents, 1,3 + 1*my_rank, interactions);
+    Assignment_E(Nagents, MCcycles, mu, Simualation_Agents, 2, 1*my_rank, interactions);
 
     // Fill matrix with data for a simulation
     for(int nr = 0; nr < Nagents; nr++){
@@ -91,7 +91,7 @@ int main(int argc, char* argv[])
   }
   
   // write to file
-  string fileout = filename+"_"+to_string(my_rank+3)+".txt";
+  string fileout = filename+"_"+to_string(my_rank)+".txt";
   ofile.open(fileout);
   ofile << "X" << setw(15) << "Y" << endl;
   WriteResultstoFile(intervales,length);
