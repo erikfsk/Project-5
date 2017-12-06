@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  5 DEC 2017 23:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 DEC 2017 13:11
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2897,18 +2897,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] <result/bilder/5a-correct.pdf, id=97, 568.09927pt x 425.46799pt>
-File: result/bilder/5a-correct.pdf Graphic file (type pdf)
+[2] <result/bilder/5a.pdf, id=97, 568.0632pt x 425.46799pt>
+File: result/bilder/5a.pdf Graphic file (type pdf)
 
-<use result/bilder/5a-correct.pdf>
-Package pdftex.def Info: result/bilder/5a-correct.pdf used on input line 7.
-(pdftex.def)             Requested size: 262.61894pt x 196.68497pt.
+<use result/bilder/5a.pdf>
+Package pdftex.def Info: result/bilder/5a.pdf used on input line 7.
+(pdftex.def)             Requested size: 262.61894pt x 196.70445pt.
 
-<result/bilder/5b-correct.pdf, id=98, 571.53392pt x 422.96898pt>
-File: result/bilder/5b-correct.pdf Graphic file (type pdf)
+<result/bilder/5b.pdf, id=98, 571.53392pt x 422.96898pt>
+File: result/bilder/5b.pdf Graphic file (type pdf)
 
-<use result/bilder/5b-correct.pdf>
-Package pdftex.def Info: result/bilder/5b-correct.pdf used on input line 13.
+<use result/bilder/5b.pdf>
+Package pdftex.def Info: result/bilder/5b.pdf used on input line 13.
 (pdftex.def)             Requested size: 262.61894pt x 194.34865pt.
 
 Overfull \hbox (5.22098pt too wide) in paragraph at lines 5--16
@@ -2921,18 +2921,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3 <./result/bilder/5a-correct.pdf> <./result/bilder/5b-correct.pdf
+[3 <./result/bilder/5a.pdf> <./result/bilder/5b.pdf
 
-pdfTeX warning: pdflatex (file ./result/bilder/5b-correct.pdf): PDF inclusion: 
-multiple pdfs with page group included in a single page
->] <result/bilder/5c.pdf, id=197, 567.94557pt x 425.46799pt>
+pdfTeX warning: pdflatex (file ./result/bilder/5b.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+>] <result/bilder/5c.pdf, id=202, 567.9566pt x 425.46799pt>
 File: result/bilder/5c.pdf Graphic file (type pdf)
 
 <use result/bilder/5c.pdf>
 Package pdftex.def Info: result/bilder/5c.pdf used on input line 53.
 (pdftex.def)             Requested size: 262.61894pt x 196.73691pt.
 
-<result/bilder/5c-log.pdf, id=198, 571.54337pt x 422.96898pt>
+<result/bilder/5c-log.pdf, id=203, 571.53392pt x 422.96898pt>
 File: result/bilder/5c-log.pdf Graphic file (type pdf)
 
 <use result/bilder/5c-log.pdf>
@@ -2953,54 +2953,54 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 pdfTeX warning: pdflatex (file ./result/bilder/5c-log.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
->] <result/bilder/5d-0050.pdf, id=294, 567.9362pt x 425.46799pt>
+>] <result/bilder/5d-0050.pdf, id=306, 567.99261pt x 425.46799pt>
 File: result/bilder/5d-0050.pdf Graphic file (type pdf)
 
 <use result/bilder/5d-0050.pdf>
 Package pdftex.def Info: result/bilder/5d-0050.pdf used on input line 99.
-(pdftex.def)             Requested size: 262.61894pt x 196.7499pt.
+(pdftex.def)             Requested size: 262.61894pt x 196.72392pt.
 
-<result/bilder/5d-0050-log.pdf, id=295, 574.05592pt x 427.04732pt>
-File: result/bilder/5d-0050-log.pdf Graphic file (type pdf)
+<result/bilder/5d-2590.pdf, id=307, 572.91887pt x 426.91481pt>
+File: result/bilder/5d-2590.pdf Graphic file (type pdf)
 
-<use result/bilder/5d-0050-log.pdf>
-Package pdftex.def Info: result/bilder/5d-0050-log.pdf used on input line 105.
-(pdftex.def)             Requested size: 262.61894pt x 195.36897pt.
+<use result/bilder/5d-2590.pdf>
+Package pdftex.def Info: result/bilder/5d-2590.pdf used on input line 105.
+(pdftex.def)             Requested size: 262.61894pt x 195.69269pt.
 
 Overfull \hbox (5.22098pt too wide) in paragraph at lines 97--108
  []$[]$  $[]$ 
  []
 
-<result/bilder/5d-2590.pdf, id=296, 572.56598pt x 426.91481pt>
-File: result/bilder/5d-2590.pdf Graphic file (type pdf)
+<result/bilder/5d-00.pdf, id=308, 572.91887pt x 426.91481pt>
+File: result/bilder/5d-00.pdf Graphic file (type pdf)
 
-<use result/bilder/5d-2590.pdf>
-Package pdftex.def Info: result/bilder/5d-2590.pdf used on input line 118.
-(pdftex.def)             Requested size: 262.61894pt x 195.80994pt.
+<use result/bilder/5d-00.pdf>
+Package pdftex.def Info: result/bilder/5d-00.pdf used on input line 118.
+(pdftex.def)             Requested size: 262.61894pt x 195.69269pt.
 
-<result/bilder/5d-2590-log.pdf, id=297, 574.05592pt x 427.04732pt>
-File: result/bilder/5d-2590-log.pdf Graphic file (type pdf)
+<result/bilder/5d-00-log.pdf, id=309, 574.05592pt x 427.04732pt>
+File: result/bilder/5d-00-log.pdf Graphic file (type pdf)
 
-<use result/bilder/5d-2590-log.pdf>
-Package pdftex.def Info: result/bilder/5d-2590-log.pdf used on input line 124.
+<use result/bilder/5d-00-log.pdf>
+Package pdftex.def Info: result/bilder/5d-00-log.pdf used on input line 124.
 (pdftex.def)             Requested size: 262.61894pt x 195.36897pt.
 
 Overfull \hbox (5.22098pt too wide) in paragraph at lines 116--127
  []$[]$  $[]$ 
  []
 
-<result/bilder/5d-00.pdf, id=298, 572.56598pt x 426.91481pt>
-File: result/bilder/5d-00.pdf Graphic file (type pdf)
+<result/bilder/5d-25.pdf, id=310, 572.9408pt x 426.91481pt>
+File: result/bilder/5d-25.pdf Graphic file (type pdf)
 
-<use result/bilder/5d-00.pdf>
-Package pdftex.def Info: result/bilder/5d-00.pdf used on input line 137.
-(pdftex.def)             Requested size: 262.61894pt x 195.80994pt.
+<use result/bilder/5d-25.pdf>
+Package pdftex.def Info: result/bilder/5d-25.pdf used on input line 137.
+(pdftex.def)             Requested size: 262.61894pt x 195.67966pt.
 
-<result/bilder/5d-00-log.pdf, id=299, 574.05592pt x 427.04732pt>
-File: result/bilder/5d-00-log.pdf Graphic file (type pdf)
+<result/bilder/5d-25-log.pdf, id=311, 574.05592pt x 427.04732pt>
+File: result/bilder/5d-25-log.pdf Graphic file (type pdf)
 
-<use result/bilder/5d-00-log.pdf>
-Package pdftex.def Info: result/bilder/5d-00-log.pdf used on input line 143.
+<use result/bilder/5d-25-log.pdf>
+Package pdftex.def Info: result/bilder/5d-25-log.pdf used on input line 143.
 (pdftex.def)             Requested size: 262.61894pt x 195.36897pt.
 
 Overfull \hbox (5.22098pt too wide) in paragraph at lines 135--146
@@ -3013,48 +3013,48 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5 <./result/bilder/5d-0050.pdf> <./result/bilder/5d-0050-log.pdf
-
-pdfTeX warning: pdflatex (file ./result/bilder/5d-0050-log.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
-> <./result/bilder/5d-2590.pdf
+[5 <./result/bilder/5d-0050.pdf> <./result/bilder/5d-2590.pdf
 
 pdfTeX warning: pdflatex (file ./result/bilder/5d-2590.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
-> <./result/bilder/5d-2590-log.pdf
+> <./result/bilder/5d-00.pdf
 
-pdfTeX warning: pdflatex (file ./result/bilder/5d-2590-log.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
->] <result/bilder/5d-25.pdf, id=480, 572.5879pt x 426.91481pt>
-File: result/bilder/5d-25.pdf Graphic file (type pdf)
+pdfTeX warning: pdflatex (file ./result/bilder/5d-00.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./result/bilder/5d-00-log.pdf
 
-<use result/bilder/5d-25.pdf>
-Package pdftex.def Info: result/bilder/5d-25.pdf used on input line 156.
-(pdftex.def)             Requested size: 262.61894pt x 195.80994pt.
-
-<result/bilder/5d-25-log.pdf, id=481, 574.05592pt x 427.04732pt>
-File: result/bilder/5d-25-log.pdf Graphic file (type pdf)
-
-<use result/bilder/5d-25-log.pdf>
-Package pdftex.def Info: result/bilder/5d-25-log.pdf used on input line 162.
-(pdftex.def)             Requested size: 262.61894pt x 195.36897pt.
-
-Overfull \hbox (5.22098pt too wide) in paragraph at lines 154--165
- []$[]$  $[]$ 
- []
-
-<result/bilder/5d-50.pdf, id=482, 572.5879pt x 426.91481pt>
+pdfTeX warning: pdflatex (file ./result/bilder/5d-00-log.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>] <result/bilder/5d-50.pdf, id=482, 572.9408pt x 426.91481pt>
 File: result/bilder/5d-50.pdf Graphic file (type pdf)
 
 <use result/bilder/5d-50.pdf>
-Package pdftex.def Info: result/bilder/5d-50.pdf used on input line 176.
-(pdftex.def)             Requested size: 262.61894pt x 195.80994pt.
+Package pdftex.def Info: result/bilder/5d-50.pdf used on input line 157.
+(pdftex.def)             Requested size: 262.61894pt x 195.67966pt.
 
 <result/bilder/5d-50-log.pdf, id=483, 574.05592pt x 427.04732pt>
 File: result/bilder/5d-50-log.pdf Graphic file (type pdf)
 
 <use result/bilder/5d-50-log.pdf>
-Package pdftex.def Info: result/bilder/5d-50-log.pdf used on input line 182.
+Package pdftex.def Info: result/bilder/5d-50-log.pdf used on input line 163.
+(pdftex.def)             Requested size: 262.61894pt x 195.36897pt.
+
+Overfull \hbox (5.22098pt too wide) in paragraph at lines 155--166
+ []$[]$  $[]$ 
+ []
+
+<result/bilder/5d-90.pdf, id=484, 572.91887pt x 426.91481pt>
+File: result/bilder/5d-90.pdf Graphic file (type pdf)
+
+<use result/bilder/5d-90.pdf>
+Package pdftex.def Info: result/bilder/5d-90.pdf used on input line 176.
+(pdftex.def)             Requested size: 262.61894pt x 195.69269pt.
+
+<result/bilder/5d-90-log.pdf, id=485, 574.05592pt x 427.04732pt>
+File: result/bilder/5d-90-log.pdf Graphic file (type pdf)
+
+<use result/bilder/5d-90-log.pdf>
+Package pdftex.def Info: result/bilder/5d-90-log.pdf used on input line 182.
 (pdftex.def)             Requested size: 262.61894pt x 195.36897pt.
 
 Overfull \hbox (5.22098pt too wide) in paragraph at lines 174--185
@@ -3067,105 +3067,80 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6 <./result/bilder/5d-00.pdf> <./result/bilder/5d-00-log.pdf
-
-pdfTeX warning: pdflatex (file ./result/bilder/5d-00-log.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
-> <./result/bilder/5d-25.pdf
-
-pdfTeX warning: pdflatex (file ./result/bilder/5d-25.pdf): PDF inclusion: multi
-ple pdfs with page group included in a single page
-> <./result/bilder/5d-25-log.pdf
+[6 <./result/bilder/5d-25.pdf> <./result/bilder/5d-25-log.pdf
 
 pdfTeX warning: pdflatex (file ./result/bilder/5d-25-log.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
->] <result/bilder/5d-90.pdf, id=664, 572.56598pt x 426.91481pt>
-File: result/bilder/5d-90.pdf Graphic file (type pdf)
+> <./result/bilder/5d-50.pdf
 
-<use result/bilder/5d-90.pdf>
-Package pdftex.def Info: result/bilder/5d-90.pdf used on input line 195.
-(pdftex.def)             Requested size: 262.61894pt x 195.80994pt.
+pdfTeX warning: pdflatex (file ./result/bilder/5d-50.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./result/bilder/5d-50-log.pdf
 
-<result/bilder/5d-90-log.pdf, id=665, 574.05592pt x 427.04732pt>
-File: result/bilder/5d-90-log.pdf Graphic file (type pdf)
-
-<use result/bilder/5d-90-log.pdf>
-Package pdftex.def Info: result/bilder/5d-90-log.pdf used on input line 201.
-(pdftex.def)             Requested size: 262.61894pt x 195.36897pt.
-
-Overfull \hbox (5.22098pt too wide) in paragraph at lines 193--204
- []$[]$  $[]$ 
- []
-
+pdfTeX warning: pdflatex (file ./result/bilder/5d-50-log.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7 <./result/bilder/5d-50.pdf> <./result/bilder/5d-50-log.pdf
-
-pdfTeX warning: pdflatex (file ./result/bilder/5d-50-log.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
-> <./result/bilder/5d-90.pdf
-
-pdfTeX warning: pdflatex (file ./result/bilder/5d-90.pdf): PDF inclusion: multi
-ple pdfs with page group included in a single page
-> <./result/bilder/5d-90-log.pdf
+[7 <./result/bilder/5d-90.pdf> <./result/bilder/5d-90-log.pdf
 
 pdfTeX warning: pdflatex (file ./result/bilder/5d-90-log.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
->] <result/bilder/5e-1-00.pdf, id=846, 568.04286pt x 425.46799pt>
+>] <result/bilder/5e-1-00.pdf, id=759, 568.09927pt x 425.46799pt>
 File: result/bilder/5e-1-00.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-1-00.pdf>
-Package pdftex.def Info: result/bilder/5e-1-00.pdf used on input line 237.
-(pdftex.def)             Requested size: 262.61894pt x 196.70445pt.
+Package pdftex.def Info: result/bilder/5e-1-00.pdf used on input line 218.
+(pdftex.def)             Requested size: 262.61894pt x 196.68497pt.
 
-<result/bilder/5e-1-00-log.pdf, id=847, 574.05592pt x 427.04732pt>
+<result/bilder/5e-1-00-log.pdf, id=760, 574.05592pt x 427.04732pt>
 File: result/bilder/5e-1-00-log.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-1-00-log.pdf>
-Package pdftex.def Info: result/bilder/5e-1-00-log.pdf used on input line 243.
+Package pdftex.def Info: result/bilder/5e-1-00-log.pdf used on input line 224.
+(pdftex.def)             Requested size: 262.61894pt x 195.36897pt.
+
+Overfull \hbox (5.22098pt too wide) in paragraph at lines 216--227
+ []$[]$  $[]$ 
+ []
+
+<result/bilder/5e-2-00.pdf, id=761, 572.91887pt x 426.91481pt>
+File: result/bilder/5e-2-00.pdf Graphic file (type pdf)
+
+<use result/bilder/5e-2-00.pdf>
+Package pdftex.def Info: result/bilder/5e-2-00.pdf used on input line 237.
+(pdftex.def)             Requested size: 262.61894pt x 195.69269pt.
+
+<result/bilder/5e-2-00-log.pdf, id=762, 574.05592pt x 427.04732pt>
+File: result/bilder/5e-2-00-log.pdf Graphic file (type pdf)
+
+<use result/bilder/5e-2-00-log.pdf>
+Package pdftex.def Info: result/bilder/5e-2-00-log.pdf used on input line 243.
 (pdftex.def)             Requested size: 262.61894pt x 195.36897pt.
 
 Overfull \hbox (5.22098pt too wide) in paragraph at lines 235--246
  []$[]$  $[]$ 
  []
 
-<result/bilder/5e-2-00.pdf, id=848, 572.56598pt x 426.91481pt>
-File: result/bilder/5e-2-00.pdf Graphic file (type pdf)
-
-<use result/bilder/5e-2-00.pdf>
-Package pdftex.def Info: result/bilder/5e-2-00.pdf used on input line 256.
-(pdftex.def)             Requested size: 262.61894pt x 195.80994pt.
-
-<result/bilder/5e-2-00-log.pdf, id=849, 574.05592pt x 427.04732pt>
-File: result/bilder/5e-2-00-log.pdf Graphic file (type pdf)
-
-<use result/bilder/5e-2-00-log.pdf>
-Package pdftex.def Info: result/bilder/5e-2-00-log.pdf used on input line 262.
-(pdftex.def)             Requested size: 262.61894pt x 195.36897pt.
-
-Overfull \hbox (5.22098pt too wide) in paragraph at lines 254--265
- []$[]$  $[]$ 
- []
-
-<result/bilder/5e-1-50.pdf, id=850, 572.5879pt x 426.91481pt>
+<result/bilder/5e-1-50.pdf, id=763, 572.9408pt x 426.91481pt>
 File: result/bilder/5e-1-50.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-1-50.pdf>
-Package pdftex.def Info: result/bilder/5e-1-50.pdf used on input line 286.
-(pdftex.def)             Requested size: 262.61894pt x 195.80994pt.
+Package pdftex.def Info: result/bilder/5e-1-50.pdf used on input line 267.
+(pdftex.def)             Requested size: 262.61894pt x 195.67966pt.
 
-<result/bilder/5e-1-50-log.pdf, id=851, 574.05592pt x 427.04732pt>
+<result/bilder/5e-1-50-log.pdf, id=764, 574.05592pt x 427.04732pt>
 File: result/bilder/5e-1-50-log.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-1-50-log.pdf>
-Package pdftex.def Info: result/bilder/5e-1-50-log.pdf used on input line 292.
+Package pdftex.def Info: result/bilder/5e-1-50-log.pdf used on input line 273.
 (pdftex.def)             Requested size: 262.61894pt x 195.36897pt.
 
-Overfull \hbox (5.22098pt too wide) in paragraph at lines 284--295
+Overfull \hbox (5.22098pt too wide) in paragraph at lines 265--276
  []$[]$  $[]$ 
  []
 
@@ -3187,39 +3162,39 @@ tiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./result/bilder/5e-2-00-log.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
->] <result/bilder/5e-2-50.pdf, id=1032, 572.5879pt x 426.91481pt>
+>] <result/bilder/5e-2-50.pdf, id=945, 572.9408pt x 426.91481pt>
 File: result/bilder/5e-2-50.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-2-50.pdf>
-Package pdftex.def Info: result/bilder/5e-2-50.pdf used on input line 305.
-(pdftex.def)             Requested size: 262.61894pt x 195.80994pt.
+Package pdftex.def Info: result/bilder/5e-2-50.pdf used on input line 286.
+(pdftex.def)             Requested size: 262.61894pt x 195.67966pt.
 
-<result/bilder/5e-2-50-log.pdf, id=1033, 574.05592pt x 427.04732pt>
+<result/bilder/5e-2-50-log.pdf, id=946, 574.05592pt x 427.04732pt>
 File: result/bilder/5e-2-50-log.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-2-50-log.pdf>
-Package pdftex.def Info: result/bilder/5e-2-50-log.pdf used on input line 311.
+Package pdftex.def Info: result/bilder/5e-2-50-log.pdf used on input line 292.
 (pdftex.def)             Requested size: 262.61894pt x 195.36897pt.
 
-Overfull \hbox (5.22098pt too wide) in paragraph at lines 303--314
+Overfull \hbox (5.22098pt too wide) in paragraph at lines 284--295
  []$[]$  $[]$ 
  []
 
-<result/bilder/5e-1-90.pdf, id=1034, 572.59894pt x 426.91481pt>
+<result/bilder/5e-1-90.pdf, id=947, 572.91887pt x 426.91481pt>
 File: result/bilder/5e-1-90.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-1-90.pdf>
-Package pdftex.def Info: result/bilder/5e-1-90.pdf used on input line 336.
-(pdftex.def)             Requested size: 262.61894pt x 195.7969pt.
+Package pdftex.def Info: result/bilder/5e-1-90.pdf used on input line 317.
+(pdftex.def)             Requested size: 262.61894pt x 195.69269pt.
 
-<result/bilder/5e-1-90-log.pdf, id=1035, 574.05592pt x 427.04732pt>
+<result/bilder/5e-1-90-log.pdf, id=948, 574.05592pt x 427.04732pt>
 File: result/bilder/5e-1-90-log.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-1-90-log.pdf>
-Package pdftex.def Info: result/bilder/5e-1-90-log.pdf used on input line 342.
+Package pdftex.def Info: result/bilder/5e-1-90-log.pdf used on input line 323.
 (pdftex.def)             Requested size: 262.61894pt x 195.36897pt.
 
-Overfull \hbox (5.22098pt too wide) in paragraph at lines 334--345
+Overfull \hbox (5.22098pt too wide) in paragraph at lines 315--326
  []$[]$  $[]$ 
  []
 
@@ -3241,21 +3216,21 @@ tiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./result/bilder/5e-2-50-log.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
->] <result/bilder/5e-2-90.pdf, id=1220, 572.59894pt x 426.91481pt>
+>] <result/bilder/5e-2-90.pdf, id=1133, 572.91887pt x 426.91481pt>
 File: result/bilder/5e-2-90.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-2-90.pdf>
-Package pdftex.def Info: result/bilder/5e-2-90.pdf used on input line 355.
-(pdftex.def)             Requested size: 262.61894pt x 195.7969pt.
+Package pdftex.def Info: result/bilder/5e-2-90.pdf used on input line 336.
+(pdftex.def)             Requested size: 262.61894pt x 195.69269pt.
 
-<result/bilder/5e-2-90-log.pdf, id=1221, 574.05592pt x 427.04732pt>
+<result/bilder/5e-2-90-log.pdf, id=1134, 574.05592pt x 427.04732pt>
 File: result/bilder/5e-2-90-log.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-2-90-log.pdf>
-Package pdftex.def Info: result/bilder/5e-2-90-log.pdf used on input line 361.
+Package pdftex.def Info: result/bilder/5e-2-90-log.pdf used on input line 342.
 (pdftex.def)             Requested size: 262.61894pt x 195.36897pt.
 
-Overfull \hbox (5.22098pt too wide) in paragraph at lines 353--364
+Overfull \hbox (5.22098pt too wide) in paragraph at lines 334--345
  []$[]$  $[]$ 
  []
 
@@ -3297,10 +3272,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 150.
  ) 
 Here is how much of TeX's memory you used:
- 45912 strings out of 492995
- 958243 string characters out of 6132704
- 1460017 words of memory out of 5000000
- 48801 multiletter control sequences out of 15000+600000
+ 45900 strings out of 492995
+ 957833 string characters out of 6132704
+ 1459911 words of memory out of 5000000
+ 48792 multiletter control sequences out of 15000+600000
  550617 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,12n,77p,10451b,1670s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3313,10 +3288,10 @@ e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/
 17/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2017
 /texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017/t
 exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (11 pages, 1056543 bytes).
+Output written on main.pdf (11 pages, 860779 bytes).
 PDF statistics:
- 1445 PDF objects out of 1728 (max. 8388607)
- 547 compressed objects within 6 object streams
- 38 named destinations out of 1000 (max. 500000)
- 256 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1354 PDF objects out of 1440 (max. 8388607)
+ 520 compressed objects within 6 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 246 words of extra memory for PDF output out of 10000 (max. 10000000)
 

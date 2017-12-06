@@ -10,6 +10,7 @@ def fitting(x,lam):
 	an = n**n/gamma(n)
 	return an*x**(n-1)*exp(-n*x)
 
+
 output = Popen(["ls"], stdout=PIPE).communicate()[0]
 txtfiles = re.findall(".*\.txt",output,re.IGNORECASE)
 
@@ -17,8 +18,25 @@ txtfiles = re.findall(".*\.txt",output,re.IGNORECASE)
 for txtfile in txtfiles:
 	data = data_dict(txtfile)
 	label_text = "$\lambda = $" + str(float(txtfile[-6:-4])/100)
-	plot(data["X"],data["Y"]*100,"-",label=label_text)
-	plot(data["X"],fitting(data["X"],float(txtfile[-6:-4])/100),"r--",label="Gibbs distribution")
+	# plot(data["X"],fitting(data["X"],float(txtfile[-6:-4])/100),"b--")
+	# if 0.0 == float(txtfile[-6:-4])/100:
+	if "_00." == txtfile[-7:-3]:
+		plot(data["X"],data["Y"]*100,"k-",label=label_text)
+		plot(data["X"],fitting(data["X"],float(txtfile[-6:-4])/100),"r--",label="Gibbs distribution")
+
+	elif 25 == int(txtfile[-6:-4]):
+		plot(data["X"],fitting(data["X"],float(txtfile[-6:-4])/100),"b--")
+		plot(data["X"],data["Y"]*100,"m-",label=label_text)
+		
+	elif 50 == int(txtfile[-6:-4]):
+		plot(data["X"],fitting(data["X"],float(txtfile[-6:-4])/100),"b--")
+		plot(data["X"],data["Y"]*100,"g-",label=label_text)
+		
+	elif 90 == int(txtfile[-6:-4]):
+		plot(data["X"],fitting(data["X"],float(txtfile[-6:-4])/100),"b--")
+		plot(data["X"],data["Y"]*100,"r-",label=label_text)
+
+
 
 xlabel("Wealth [$]",fontsize=20)
 ylabel("Probability [%]",fontsize=20)
@@ -26,18 +44,37 @@ ylabel("Probability [%]",fontsize=20)
 xticks(fontsize=20)
 yticks(fontsize=20)
 
-xlim(0,5)
+xlim(0,4)
 grid("on")
 tight_layout()
 legend(loc="best",fontsize=20)
-savefig("5c-standard.pdf" ,bbox_inches="tight")
+savefig("5c.pdf" ,bbox_inches="tight")
 show()
+
 
 
 for txtfile in txtfiles:
 	data = data_dict(txtfile)
 	label_text = "$\lambda = $" + str(float(txtfile[-6:-4])/100)
-	semilogy(data["X"],data["Y"]*100,"-",label=label_text)
+	# plot(data["X"],fitting(data["X"],float(txtfile[-6:-4])/100),"b--")
+	# if 0.0 == float(txtfile[-6:-4])/100:
+	if "_00." == txtfile[-7:-3]:
+		semilogy(data["X"],data["Y"]*100,"k-",label=label_text)
+		semilogy(data["X"],fitting(data["X"],float(txtfile[-6:-4])/100),"r--",label="Gibbs distribution")
+
+	elif 25 == int(txtfile[-6:-4]):
+		semilogy(data["X"],fitting(data["X"],float(txtfile[-6:-4])/100),"b--")
+		semilogy(data["X"],data["Y"]*100,"m-",label=label_text)
+		
+	elif 50 == int(txtfile[-6:-4]):
+		semilogy(data["X"],fitting(data["X"],float(txtfile[-6:-4])/100),"b--")
+		semilogy(data["X"],data["Y"]*100,"g-",label=label_text)
+		
+	elif 90 == int(txtfile[-6:-4]):
+		semilogy(data["X"],fitting(data["X"],float(txtfile[-6:-4])/100),"b--")
+		semilogy(data["X"],data["Y"]*100,"r-",label=label_text)
+
+
 
 xlabel("Wealth [$]",fontsize=20)
 ylabel("Probability [%]",fontsize=20)
@@ -45,13 +82,12 @@ ylabel("Probability [%]",fontsize=20)
 xticks(fontsize=20)
 yticks(fontsize=20)
 
-xlim(0,5)
+xlim(0,10)
+ylim(10**-4.2,10**1)
 grid("on")
 tight_layout()
 legend(loc="best",fontsize=20)
 savefig("5c-log.pdf" ,bbox_inches="tight")
 show()
-
-
 
 

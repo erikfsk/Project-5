@@ -16,7 +16,7 @@ ofstream ofile;
 
 void Assignment_A(int N, int MCcycles, double saving, vec& agents);
 void Assignment_D(int N, int MCcycles, double saving, vec& agents, double alpha);
-void Assignment_E(int N, int MCcycles, double saving, vec& agents, double alpha, double gamma, mat& interactions);
+void Assignment_E(int N, int MCcycles, double saving, vec& agents, double alpha, double gamma);
 void WriteResultstoFile(vec intervales, int length);
 void Progress_bar(int my_rank,int simulations,int i, int& progress);
 void Progress_bar_done(int my_rank);
@@ -56,8 +56,7 @@ int main(int argc, char* argv[])
 
   int progress = 1;
   mat Agents = ones<mat>(Nagents,simulations)*intial_money;
-  vec Simualation_Agents = ones<vec>(Nagents)*intial_money;
-  mat interactions = ones<mat>(Nagents,Nagents);
+  
   for(int i = 0; i < simulations; i++){
 
     
@@ -68,9 +67,11 @@ int main(int argc, char* argv[])
     // pick assignment
     // 
 
+    vec Simualation_Agents = ones<vec>(Nagents)*intial_money;
+    
     // Assignment_A(Nagents, MCcycles, mu + 0.30*my_rank, Simualation_Agents);
     // Assignment_D(Nagents, MCcycles, mu, Simualation_Agents, 0.5 + my_rank*0.5);
-    Assignment_E(Nagents, MCcycles, mu, Simualation_Agents, 2, 1*my_rank, interactions);
+    Assignment_E(Nagents, MCcycles, mu, Simualation_Agents, 1,1 + 1*my_rank);
 
     // Fill matrix with data for a simulation
     for(int nr = 0; nr < Nagents; nr++){
@@ -91,7 +92,7 @@ int main(int argc, char* argv[])
   }
   
   // write to file
-  string fileout = filename+"_"+to_string(my_rank)+".txt";
+  string fileout = filename+"_"+to_string(1 + my_rank)+".txt";
   ofile.open(fileout);
   ofile << "X" << setw(15) << "Y" << endl;
   WriteResultstoFile(intervales,length);
@@ -156,7 +157,7 @@ void Assignment_D(int Nagents, int MCcycles, double saving, vec& agents, double 
   }
 }
 
-void Assignment_E(int Nagents, int MCcycles, double saving, vec& agents, double alpha, double gamma,mat& interactions)
+void Assignment_E(int Nagents, int MCcycles, double saving, vec& agents, double alpha, double gamma)
 {
   // initializing random generator
   std::random_device rd;
@@ -164,8 +165,8 @@ void Assignment_E(int Nagents, int MCcycles, double saving, vec& agents, double 
   std::uniform_real_distribution<double> rand(0.0,1.0);
 
 
-
-  double max_interactions = 1.;
+  mat interactions = ones<mat>(Nagents,Nagents);
+  vec max_interactions = ones<vec>(Nagents);
   
   int j = 0;
   while(j < MCcycles){
@@ -175,27 +176,34 @@ void Assignment_E(int Nagents, int MCcycles, double saving, vec& agents, double 
     int l = (int)(Nagents*rand(gen));
     if(k == l){continue;}
     if (fabs(agents(k)-agents(l)) < 1){
-      if (rand(gen) < pow((interactions(k,l))/max_interactions,gamma)){
+      if (rand(gen) < pow((interactions(k,l))/((max_interactions(k)+max_interactions(l))/2.),gamma)){
 
         // Transaction
         interactions(k,l) += 1;
         interactions(l,k) += 1;
-        if (interactions(k,l) > max_interactions){
-          max_interactions += 1;
+        if (interactions(k,l) > max_interactions(k)){
+          max_interactions(k) += 1;
         } 
+        if (interactions(k,l) > max_interactions(l)){
+          max_interactions(l) += 1;
+        } 
+
         double eps = rand(gen);
         double dm = (1-saving)*(eps*agents(l)-(1-eps)*agents(k));
         agents(k) += dm;
         agents(l) -= dm;
       }
     }
-    else if (rand(gen) < pow(fabs(agents(k)-agents(l)),-alpha)*pow((interactions(k,l))/max_interactions,gamma)){
+    else if (rand(gen) < pow(fabs(agents(k)-agents(l)),-alpha)*pow((interactions(k,l))/((max_interactions(k)+max_interactions(l))/2.),gamma)){
       
       // Transaction
       interactions(k,l) += 1;
       interactions(l,k) += 1;
-      if (interactions(k,l) > max_interactions){
-        max_interactions += 1;
+      if (interactions(k,l) > max_interactions(k)){
+        max_interactions(k) += 1;
+      } 
+      if (interactions(k,l) > max_interactions(l)){
+        max_interactions(l) += 1;
       } 
       double eps = rand(gen);
       double dm = (1-saving)*(eps*agents(l)-(1-eps)*agents(k));
