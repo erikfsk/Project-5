@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 DEC 2017 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  7 DEC 2017 14:47
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2606,9 +2606,8 @@ Package: translator 2010/06/12 ver 1.10
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/translator-lang
 uage-mappings.tex)))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/todonotes/todonotes.sty
-Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
-Package: todonotes 2012/07/25
+(/usr/local/texlive/2017/texmf-dist/tex/latex/animate/animate.sty
+Package: animate 2017/05/18 PDF animations from files and inline graphics
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
@@ -2621,31 +2620,65 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@depth=\count438
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/media9/pdfbase.sty
+Package: pdfbase 2017/03/23 v0.14 driver independent access to low-level PDF fe
+atures
+\g_pbs_page_int=\count439
+\g_pbs_oc_int=\count440
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ocgx2/ocgbase.sty
+Package: ocgbase 2017/03/30 v0.10 support package for ocgx2.sty
+)
+\@anim@box=\box64
+\@anim@measbox=\box65
+\@anim@tmpdima=\dimen303
+\@anim@tmpdimb=\dimen304
+\@anim@num=\count441
+\@anim@curframe=\count442
+\@anim@curframe@zb=\count443
+\@anim@resizeflags=\count444
+\@anim@skipfram=\count445
+\@anim@mulframecnt=\count446
+\@anim@@tmlnfile=\read4
+\@anim@tmpcnt=\count447
+\c@@anim@ltxcnt=\count448
+\@anim@curlayer=\count449
+\@anim@lineno=\count450
+\@anim@curfield=\count451
+\@anim@@resizeflags=\count452
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 )
-\c@@todonotes@numberoftodonotes=\count439
+\c@@todonotes@numberoftodonotes=\count453
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count440
-\lst@gtempboxa=\box64
+\lst@mode=\count454
+\lst@gtempboxa=\box66
 \lst@token=\toks42
-\lst@length=\count441
-\lst@currlwidth=\dimen303
-\lst@column=\count442
-\lst@pos=\count443
-\lst@lostspace=\dimen304
-\lst@width=\dimen305
-\lst@newlines=\count444
-\lst@lineno=\count445
-\lst@maxwidth=\dimen306
+\lst@length=\count455
+\lst@currlwidth=\dimen305
+\lst@column=\count456
+\lst@pos=\count457
+\lst@lostspace=\dimen306
+\lst@width=\dimen307
+\lst@newlines=\count458
+\lst@lineno=\count459
+\lst@maxwidth=\dimen308
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count446
-\lst@skipnumbers=\count447
-\lst@framebox=\box65
+\c@lstnumber=\count460
+\lst@skipnumbers=\count461
+\lst@framebox=\box67
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
@@ -2655,8 +2688,8 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks43
-\footnotemargin=\dimen307
-\c@pp@next@reset=\count448
+\footnotemargin=\dimen309
+\c@pp@next@reset=\count462
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -2676,8 +2709,8 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count449
-\@quotereset=\count450
+\@quotelevel=\count463
+\@quotereset=\count464
 (./main.aux)
 \openout1 = `main.aux'.
 
@@ -2700,16 +2733,16 @@ LaTeX Font Info:    ... okay on input line 4.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count451
-\scratchdimen=\dimen308
-\scratchbox=\box66
-\nofMPsegments=\count452
-\nofMParguments=\count453
+\scratchcounter=\count465
+\scratchdimen=\dimen310
+\scratchbox=\box68
+\nofMPsegments=\count466
+\nofMParguments=\count467
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count454
-\MPscratchDim=\dimen309
-\MPnumerator=\count455
-\makeMPintoPDFobject=\count456
+\MPscratchCnt=\count468
+\MPscratchDim=\dimen311
+\MPnumerator=\count469
+\makeMPintoPDFobject=\count470
 \everyMPtoPDFconversion=\toks45
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -2733,7 +2766,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box67
+\AtBeginShipoutBox=\box69
 Package hyperref Info: Link coloring OFF on input line 4.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -2742,7 +2775,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count457
+\c@section@level=\count471
 )
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
@@ -2814,8 +2847,8 @@ Dictionary: translator-basic-dictionary, Language: English
 (/usr/local/texlive/2017/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/05/19 v2.7g siunitx: Abbreviated units
 )
-\c@lstlisting=\count458
-\c__siunitx_mathsf_int=\count459
+\c@lstlisting=\count472
+\c__siunitx_mathsf_int=\count473
 LaTeX Font Info:    Try loading font information for U+msa on input line 4.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -2825,16 +2858,16 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-\c__siunitx_mathtt_int=\count460
+\c__siunitx_mathtt_int=\count474
 
-<mnfrontpage-images/mnfrontpage-bg-web-3.png, id=51, 639.38875pt x 886.31125pt>
+<mnfrontpage-images/mnfrontpage-bg-web-3.png, id=79, 639.38875pt x 886.31125pt>
 File: mnfrontpage-images/mnfrontpage-bg-web-3.png Graphic file (type png)
 <use mnfrontpage-images/mnfrontpage-bg-web-3.png>
 Package pdftex.def Info: mnfrontpage-images/mnfrontpage-bg-web-3.png used on in
 put line 5.
 (pdftex.def)             Requested size: 639.38718pt x 886.30908pt.
 
-<mnfrontpage-images/mnfrontpage-apollon.pdf, id=52, 142.5325pt x 142.5325pt>
+<mnfrontpage-images/mnfrontpage-apollon.pdf, id=80, 142.5325pt x 142.5325pt>
 File: mnfrontpage-images/mnfrontpage-apollon.pdf Graphic file (type pdf)
 
 <use mnfrontpage-images/mnfrontpage-apollon.pdf>
@@ -2842,7 +2875,7 @@ Package pdftex.def Info: mnfrontpage-images/mnfrontpage-apollon.pdf used on inp
 ut line 5.
 (pdftex.def)             Requested size: 76.82243pt x 76.82285pt.
 
-<mnfrontpage-images/mnfrontpage-logo-fys-eng.pdf, id=53, 536.0025pt x 74.2775pt
+<mnfrontpage-images/mnfrontpage-logo-fys-eng.pdf, id=81, 536.0025pt x 74.2775pt
 >
 File: mnfrontpage-images/mnfrontpage-logo-fys-eng.pdf Graphic file (type pdf)
  <use mnfrontpage-images/mnfrontpage-logo-fys-eng.pdf>
@@ -2888,23 +2921,346 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.23 \section
-             *{Abstract}%1 [1] (./abstract/abstract.tex) (./intro/intro.tex)
-(./theory/theory.tex) (./method/method.tex) (./result/result.tex
+l.22 \section
+             *{Abstract}%1 [1] (./abstract/abstract.tex) (./intro/intro.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 10.
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] <result/bilder/5a.pdf, id=97, 568.0632pt x 425.46799pt>
+[2] (./theory/theory2.tex
+Overfull \hbox (11.52919pt too wide) in paragraph at lines 4--4
+[][][][]\T1/cmr/m/n/12 paretos 
+ []
+
+
+Overfull \hbox (11.52919pt too wide) in paragraph at lines 4--4
+[][][][]\T1/cmr/m/n/12 paretos 
+ []
+
+
+Overfull \hbox (11.52919pt too wide) in paragraph at lines 4--4
+[][][][]\T1/cmr/m/n/12 paretos 
+ []
+
+
+Overfull \hbox (11.52919pt too wide) in paragraph at lines 4--4
+[][][][]\T1/cmr/m/n/12 paretos 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Overfull \hbox (34.62769pt too wide) in paragraph at lines 13--13
+[][][][]\T1/cmr/m/n/12 Nødvendig?  
+ []
+
+
+Overfull \hbox (34.62769pt too wide) in paragraph at lines 13--13
+[][][][]\T1/cmr/m/n/12 Nødvendig?  
+ []
+
+
+Overfull \hbox (34.62769pt too wide) in paragraph at lines 13--13
+[][][][]\T1/cmr/m/n/12 Nødvendig?  
+ []
+
+
+Overfull \hbox (34.62769pt too wide) in paragraph at lines 13--13
+[][][][]\T1/cmr/m/n/12 Nødvendig?  
+ []
+
+
+Overfull \hbox (0.93315pt too wide) in paragraph at lines 19--19
+\T1/cmr/m/n/12 RNG  
+ []
+
+
+Overfull \hbox (0.93315pt too wide) in paragraph at lines 19--19
+\T1/cmr/m/n/12 RNG  
+ []
+
+
+Overfull \hbox (0.93315pt too wide) in paragraph at lines 19--19
+\T1/cmr/m/n/12 RNG  
+ []
+
+
+Overfull \hbox (0.93315pt too wide) in paragraph at lines 19--19
+\T1/cmr/m/n/12 RNG  
+ []
+
+
+Overfull \hbox (32.34769pt too wide) in paragraph at lines 19--19
+[][][][]\T1/cmr/m/n/12 nødvendig?  
+ []
+
+
+Overfull \hbox (32.34769pt too wide) in paragraph at lines 19--19
+[][][][]\T1/cmr/m/n/12 nødvendig?  
+ []
+
+
+Overfull \hbox (32.34769pt too wide) in paragraph at lines 19--19
+[][][][]\T1/cmr/m/n/12 nødvendig?  
+ []
+
+
+Overfull \hbox (32.34769pt too wide) in paragraph at lines 19--19
+[][][][]\T1/cmr/m/n/12 nødvendig?  
+ []
+
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+
+Overfull \hbox (46.83577pt too wide) in paragraph at lines 30--30
+[][][][]\T1/cmr/m/n/12 proofgibbsdist  
+ []
+
+
+Overfull \hbox (46.83577pt too wide) in paragraph at lines 30--30
+[][][][]\T1/cmr/m/n/12 proofgibbsdist  
+ []
+
+
+Overfull \hbox (46.83577pt too wide) in paragraph at lines 30--30
+[][][][]\T1/cmr/m/n/12 proofgibbsdist  
+ []
+
+
+Overfull \hbox (46.83577pt too wide) in paragraph at lines 30--30
+[][][][]\T1/cmr/m/n/12 proofgibbsdist  
+ []
+
+
+Overfull \hbox (8.20082pt too wide) in paragraph at lines 30--30
+\T1/cmr/m/n/12 proove  
+ []
+
+
+Overfull \hbox (8.20082pt too wide) in paragraph at lines 30--30
+\T1/cmr/m/n/12 proove  
+ []
+
+
+Overfull \hbox (8.20082pt too wide) in paragraph at lines 30--30
+\T1/cmr/m/n/12 proove  
+ []
+
+
+Overfull \hbox (8.20082pt too wide) in paragraph at lines 30--30
+\T1/cmr/m/n/12 proove  
+ []
+
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+
+LaTeX Warning: Reference `savings' on page 4 undefined on input line 81.
+
+
+LaTeX Warning: Reference `willingness' on page 4 undefined on input line 85.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+<theory/bilder/difference.pdf, id=171, 571.94023pt x 427.3806pt>
+File: theory/bilder/difference.pdf Graphic file (type pdf)
+
+<use theory/bilder/difference.pdf>
+Package pdftex.def Info: theory/bilder/difference.pdf used on input line 89.
+(pdftex.def)             Requested size: 367.6649pt x 274.7356pt.
+
+
+LaTeX Warning: Reference `basics' on page 4 undefined on input line 95.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <./theory/bilder/difference.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
+
+ []
+
+
+Overfull \hbox (27.58354pt too wide) in paragraph at lines 131--131
+[][][][]\T1/cmr/m/n/12 diskusjon?  
+ []
+
+
+Overfull \hbox (27.58354pt too wide) in paragraph at lines 131--131
+[][][][]\T1/cmr/m/n/12 diskusjon?  
+ []
+
+
+Overfull \hbox (27.58354pt too wide) in paragraph at lines 131--131
+[][][][]\T1/cmr/m/n/12 diskusjon?  
+ []
+
+
+Overfull \hbox (27.58354pt too wide) in paragraph at lines 131--131
+[][][][]\T1/cmr/m/n/12 diskusjon?  
+ []
+
+<theory/bilder/interactions.pdf, id=240, 568.09616pt x 422.09514pt>
+File: theory/bilder/interactions.pdf Graphic file (type pdf)
+
+<use theory/bilder/interactions.pdf>
+Package pdftex.def Info: theory/bilder/interactions.pdf used on input line 144.
+
+(pdftex.def)             Requested size: 367.6649pt x 273.17351pt.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6 <./theory/bilder/interactions.pdf>] (./theory/theory.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 6.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
+)
+(./method/method.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]
+
+LaTeX Warning: Reference `sec:algorithm' on page 8 undefined on input line 5.
+
+
+LaTeX Warning: Reference `sec:...' on page 8 undefined on input line 5.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--9
+
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 13.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 32.
+See the caption package documentation for explanation.
+
+<method/bilder/2.png, id=307, 1686.3pt x 1053.9375pt>
+File: method/bilder/2.png Graphic file (type png)
+
+<use method/bilder/2.png>
+Package pdftex.def Info: method/bilder/2.png used on input line 54.
+(pdftex.def)             Requested size: 110.77414pt x 69.23201pt.
+
+Overfull \hbox (10.97766pt too wide) in paragraph at lines 54--55
+ [][] 
+ []
+
+<method/bilder/3.png, id=309, 1686.3pt x 1053.9375pt>
+File: method/bilder/3.png Graphic file (type png)
+
+<use method/bilder/3.png>
+Package pdftex.def Info: method/bilder/3.png used on input line 59.
+(pdftex.def)             Requested size: 110.77414pt x 69.23201pt.
+
+Overfull \hbox (10.97766pt too wide) in paragraph at lines 59--60
+ [][] 
+ []
+
+<method/bilder/4.png, id=310, 1686.3pt x 1053.9375pt>
+File: method/bilder/4.png Graphic file (type png)
+
+<use method/bilder/4.png>
+Package pdftex.def Info: method/bilder/4.png used on input line 64.
+(pdftex.def)             Requested size: 110.77414pt x 69.23201pt.
+
+Overfull \hbox (10.97766pt too wide) in paragraph at lines 64--65
+ [][] 
+ []
+
+<method/bilder/5.png, id=311, 1686.3pt x 1053.9375pt>
+File: method/bilder/5.png Graphic file (type png)
+
+<use method/bilder/5.png>
+Package pdftex.def Info: method/bilder/5.png used on input line 69.
+(pdftex.def)             Requested size: 110.77414pt x 69.23201pt.
+
+Overfull \hbox (10.97766pt too wide) in paragraph at lines 69--70
+ [][] 
+ []
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8 <./method/bilder/2.png> <./method/bilder/3.png> <./method/bilder/4.png> <./m
+ethod/bilder/5.png>] (./result/result.tex
+<result/bilder/5a.pdf, id=330, 568.0632pt x 425.46799pt>
 File: result/bilder/5a.pdf Graphic file (type pdf)
 
 <use result/bilder/5a.pdf>
 Package pdftex.def Info: result/bilder/5a.pdf used on input line 7.
 (pdftex.def)             Requested size: 262.61894pt x 196.70445pt.
 
-<result/bilder/5b.pdf, id=98, 571.53392pt x 422.96898pt>
+<result/bilder/5b.pdf, id=331, 571.53392pt x 422.96898pt>
 File: result/bilder/5b.pdf Graphic file (type pdf)
 
 <use result/bilder/5b.pdf>
@@ -2921,18 +3277,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3 <./result/bilder/5a.pdf> <./result/bilder/5b.pdf
+[9 <./result/bilder/5a.pdf> <./result/bilder/5b.pdf
 
 pdfTeX warning: pdflatex (file ./result/bilder/5b.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
->] <result/bilder/5c.pdf, id=202, 567.9566pt x 425.46799pt>
+>] <result/bilder/5c.pdf, id=433, 567.9566pt x 425.46799pt>
 File: result/bilder/5c.pdf Graphic file (type pdf)
 
 <use result/bilder/5c.pdf>
 Package pdftex.def Info: result/bilder/5c.pdf used on input line 53.
 (pdftex.def)             Requested size: 262.61894pt x 196.73691pt.
 
-<result/bilder/5c-log.pdf, id=203, 571.53392pt x 422.96898pt>
+<result/bilder/5c-log.pdf, id=434, 571.53392pt x 422.96898pt>
 File: result/bilder/5c-log.pdf Graphic file (type pdf)
 
 <use result/bilder/5c-log.pdf>
@@ -2949,18 +3305,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4 <./result/bilder/5c.pdf> <./result/bilder/5c-log.pdf
+[10 <./result/bilder/5c.pdf> <./result/bilder/5c-log.pdf
 
 pdfTeX warning: pdflatex (file ./result/bilder/5c-log.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
->] <result/bilder/5d-0050.pdf, id=306, 567.99261pt x 425.46799pt>
+>] <result/bilder/5d-0050.pdf, id=536, 567.99261pt x 425.46799pt>
 File: result/bilder/5d-0050.pdf Graphic file (type pdf)
 
 <use result/bilder/5d-0050.pdf>
 Package pdftex.def Info: result/bilder/5d-0050.pdf used on input line 99.
 (pdftex.def)             Requested size: 262.61894pt x 196.72392pt.
 
-<result/bilder/5d-2590.pdf, id=307, 572.91887pt x 426.91481pt>
+<result/bilder/5d-2590.pdf, id=537, 572.91887pt x 426.91481pt>
 File: result/bilder/5d-2590.pdf Graphic file (type pdf)
 
 <use result/bilder/5d-2590.pdf>
@@ -2971,14 +3327,14 @@ Overfull \hbox (5.22098pt too wide) in paragraph at lines 97--108
  []$[]$  $[]$ 
  []
 
-<result/bilder/5d-00.pdf, id=308, 572.91887pt x 426.91481pt>
+<result/bilder/5d-00.pdf, id=538, 572.91887pt x 426.91481pt>
 File: result/bilder/5d-00.pdf Graphic file (type pdf)
 
 <use result/bilder/5d-00.pdf>
 Package pdftex.def Info: result/bilder/5d-00.pdf used on input line 118.
 (pdftex.def)             Requested size: 262.61894pt x 195.69269pt.
 
-<result/bilder/5d-00-log.pdf, id=309, 574.05592pt x 427.04732pt>
+<result/bilder/5d-00-log.pdf, id=539, 574.05592pt x 427.04732pt>
 File: result/bilder/5d-00-log.pdf Graphic file (type pdf)
 
 <use result/bilder/5d-00-log.pdf>
@@ -2989,14 +3345,14 @@ Overfull \hbox (5.22098pt too wide) in paragraph at lines 116--127
  []$[]$  $[]$ 
  []
 
-<result/bilder/5d-25.pdf, id=310, 572.9408pt x 426.91481pt>
+<result/bilder/5d-25.pdf, id=540, 572.9408pt x 426.91481pt>
 File: result/bilder/5d-25.pdf Graphic file (type pdf)
 
 <use result/bilder/5d-25.pdf>
 Package pdftex.def Info: result/bilder/5d-25.pdf used on input line 137.
 (pdftex.def)             Requested size: 262.61894pt x 195.67966pt.
 
-<result/bilder/5d-25-log.pdf, id=311, 574.05592pt x 427.04732pt>
+<result/bilder/5d-25-log.pdf, id=541, 574.05592pt x 427.04732pt>
 File: result/bilder/5d-25-log.pdf Graphic file (type pdf)
 
 <use result/bilder/5d-25-log.pdf>
@@ -3013,7 +3369,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5 <./result/bilder/5d-0050.pdf> <./result/bilder/5d-2590.pdf
+[11 <./result/bilder/5d-0050.pdf> <./result/bilder/5d-2590.pdf
 
 pdfTeX warning: pdflatex (file ./result/bilder/5d-2590.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
@@ -3025,14 +3381,14 @@ ple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./result/bilder/5d-00-log.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
->] <result/bilder/5d-50.pdf, id=482, 572.9408pt x 426.91481pt>
+>] <result/bilder/5d-50.pdf, id=713, 572.9408pt x 426.91481pt>
 File: result/bilder/5d-50.pdf Graphic file (type pdf)
 
 <use result/bilder/5d-50.pdf>
 Package pdftex.def Info: result/bilder/5d-50.pdf used on input line 157.
 (pdftex.def)             Requested size: 262.61894pt x 195.67966pt.
 
-<result/bilder/5d-50-log.pdf, id=483, 574.05592pt x 427.04732pt>
+<result/bilder/5d-50-log.pdf, id=714, 574.05592pt x 427.04732pt>
 File: result/bilder/5d-50-log.pdf Graphic file (type pdf)
 
 <use result/bilder/5d-50-log.pdf>
@@ -3043,14 +3399,14 @@ Overfull \hbox (5.22098pt too wide) in paragraph at lines 155--166
  []$[]$  $[]$ 
  []
 
-<result/bilder/5d-90.pdf, id=484, 572.91887pt x 426.91481pt>
+<result/bilder/5d-90.pdf, id=715, 572.91887pt x 426.91481pt>
 File: result/bilder/5d-90.pdf Graphic file (type pdf)
 
 <use result/bilder/5d-90.pdf>
 Package pdftex.def Info: result/bilder/5d-90.pdf used on input line 176.
 (pdftex.def)             Requested size: 262.61894pt x 195.69269pt.
 
-<result/bilder/5d-90-log.pdf, id=485, 574.05592pt x 427.04732pt>
+<result/bilder/5d-90-log.pdf, id=716, 574.05592pt x 427.04732pt>
 File: result/bilder/5d-90-log.pdf Graphic file (type pdf)
 
 <use result/bilder/5d-90-log.pdf>
@@ -3067,7 +3423,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6 <./result/bilder/5d-25.pdf> <./result/bilder/5d-25-log.pdf
+[12 <./result/bilder/5d-25.pdf> <./result/bilder/5d-25-log.pdf
 
 pdfTeX warning: pdflatex (file ./result/bilder/5d-25-log.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
@@ -3086,18 +3442,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7 <./result/bilder/5d-90.pdf> <./result/bilder/5d-90-log.pdf
+[13 <./result/bilder/5d-90.pdf> <./result/bilder/5d-90-log.pdf
 
 pdfTeX warning: pdflatex (file ./result/bilder/5d-90-log.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
->] <result/bilder/5e-1-00.pdf, id=759, 568.09927pt x 425.46799pt>
+>] <result/bilder/5e-1-00.pdf, id=990, 568.09927pt x 425.46799pt>
 File: result/bilder/5e-1-00.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-1-00.pdf>
 Package pdftex.def Info: result/bilder/5e-1-00.pdf used on input line 218.
 (pdftex.def)             Requested size: 262.61894pt x 196.68497pt.
 
-<result/bilder/5e-1-00-log.pdf, id=760, 574.05592pt x 427.04732pt>
+<result/bilder/5e-1-00-log.pdf, id=991, 574.05592pt x 427.04732pt>
 File: result/bilder/5e-1-00-log.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-1-00-log.pdf>
@@ -3108,14 +3464,14 @@ Overfull \hbox (5.22098pt too wide) in paragraph at lines 216--227
  []$[]$  $[]$ 
  []
 
-<result/bilder/5e-2-00.pdf, id=761, 572.91887pt x 426.91481pt>
+<result/bilder/5e-2-00.pdf, id=992, 572.91887pt x 426.91481pt>
 File: result/bilder/5e-2-00.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-2-00.pdf>
 Package pdftex.def Info: result/bilder/5e-2-00.pdf used on input line 237.
 (pdftex.def)             Requested size: 262.61894pt x 195.69269pt.
 
-<result/bilder/5e-2-00-log.pdf, id=762, 574.05592pt x 427.04732pt>
+<result/bilder/5e-2-00-log.pdf, id=993, 574.05592pt x 427.04732pt>
 File: result/bilder/5e-2-00-log.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-2-00-log.pdf>
@@ -3126,14 +3482,14 @@ Overfull \hbox (5.22098pt too wide) in paragraph at lines 235--246
  []$[]$  $[]$ 
  []
 
-<result/bilder/5e-1-50.pdf, id=763, 572.9408pt x 426.91481pt>
+<result/bilder/5e-1-50.pdf, id=994, 572.9408pt x 426.91481pt>
 File: result/bilder/5e-1-50.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-1-50.pdf>
 Package pdftex.def Info: result/bilder/5e-1-50.pdf used on input line 267.
 (pdftex.def)             Requested size: 262.61894pt x 195.67966pt.
 
-<result/bilder/5e-1-50-log.pdf, id=764, 574.05592pt x 427.04732pt>
+<result/bilder/5e-1-50-log.pdf, id=995, 574.05592pt x 427.04732pt>
 File: result/bilder/5e-1-50-log.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-1-50-log.pdf>
@@ -3150,7 +3506,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8 <./result/bilder/5e-1-00.pdf> <./result/bilder/5e-1-00-log.pdf
+[14 <./result/bilder/5e-1-00.pdf> <./result/bilder/5e-1-00-log.pdf
 
 pdfTeX warning: pdflatex (file ./result/bilder/5e-1-00-log.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
@@ -3162,14 +3518,14 @@ tiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./result/bilder/5e-2-00-log.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
->] <result/bilder/5e-2-50.pdf, id=945, 572.9408pt x 426.91481pt>
+>] <result/bilder/5e-2-50.pdf, id=1175, 572.9408pt x 426.91481pt>
 File: result/bilder/5e-2-50.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-2-50.pdf>
 Package pdftex.def Info: result/bilder/5e-2-50.pdf used on input line 286.
 (pdftex.def)             Requested size: 262.61894pt x 195.67966pt.
 
-<result/bilder/5e-2-50-log.pdf, id=946, 574.05592pt x 427.04732pt>
+<result/bilder/5e-2-50-log.pdf, id=1176, 574.05592pt x 427.04732pt>
 File: result/bilder/5e-2-50-log.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-2-50-log.pdf>
@@ -3180,14 +3536,14 @@ Overfull \hbox (5.22098pt too wide) in paragraph at lines 284--295
  []$[]$  $[]$ 
  []
 
-<result/bilder/5e-1-90.pdf, id=947, 572.91887pt x 426.91481pt>
+<result/bilder/5e-1-90.pdf, id=1177, 572.91887pt x 426.91481pt>
 File: result/bilder/5e-1-90.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-1-90.pdf>
 Package pdftex.def Info: result/bilder/5e-1-90.pdf used on input line 317.
 (pdftex.def)             Requested size: 262.61894pt x 195.69269pt.
 
-<result/bilder/5e-1-90-log.pdf, id=948, 574.05592pt x 427.04732pt>
+<result/bilder/5e-1-90-log.pdf, id=1178, 574.05592pt x 427.04732pt>
 File: result/bilder/5e-1-90-log.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-1-90-log.pdf>
@@ -3204,7 +3560,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9 <./result/bilder/5e-1-50.pdf> <./result/bilder/5e-1-50-log.pdf
+[15 <./result/bilder/5e-1-50.pdf> <./result/bilder/5e-1-50-log.pdf
 
 pdfTeX warning: pdflatex (file ./result/bilder/5e-1-50-log.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
@@ -3216,14 +3572,14 @@ tiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./result/bilder/5e-2-50-log.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
->] <result/bilder/5e-2-90.pdf, id=1133, 572.91887pt x 426.91481pt>
+>] <result/bilder/5e-2-90.pdf, id=1363, 572.91887pt x 426.91481pt>
 File: result/bilder/5e-2-90.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-2-90.pdf>
 Package pdftex.def Info: result/bilder/5e-2-90.pdf used on input line 336.
 (pdftex.def)             Requested size: 262.61894pt x 195.69269pt.
 
-<result/bilder/5e-2-90-log.pdf, id=1134, 574.05592pt x 427.04732pt>
+<result/bilder/5e-2-90-log.pdf, id=1364, 574.05592pt x 427.04732pt>
 File: result/bilder/5e-2-90-log.pdf Graphic file (type pdf)
 
 <use result/bilder/5e-2-90-log.pdf>
@@ -3236,17 +3592,12 @@ Overfull \hbox (5.22098pt too wide) in paragraph at lines 334--345
 
 ) (./conclusion/conclusion.tex)
 
-LaTeX Warning: Empty bibliography on input line 56.
-
-(./appendix/appendix.tex) 
-AED: lastpage setting LastPage
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10 <./result/bilder/5e-1-90.pdf> <./result/bilder/5e-1-90-log.pdf
+[16 <./result/bilder/5e-1-90.pdf> <./result/bilder/5e-1-90-log.pdf
 
 pdfTeX warning: pdflatex (file ./result/bilder/5e-1-90-log.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
@@ -3258,40 +3609,78 @@ tiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./result/bilder/5e-2-90-log.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
->]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 150.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 150.
+>] (./appendix/appendix.tex) 
+AED: lastpage setting LastPage
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 150.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 150.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0F9B5A9494DF0E4DC636971254B63AE3;533.
+(rerunfilecheck)             Checksum: 9A47F2AFB979981B751604EB0F7CC763;1006.
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 150.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 147.
  ) 
 Here is how much of TeX's memory you used:
- 45900 strings out of 492995
- 957833 string characters out of 6132704
- 1459911 words of memory out of 5000000
- 48792 multiletter control sequences out of 15000+600000
- 550617 words of font info for 60 fonts, out of 8000000 for 9000
+ 47071 strings out of 492995
+ 980207 string characters out of 6132704
+ 1515415 words of memory out of 5000000
+ 49874 multiletter control sequences out of 15000+600000
+ 557692 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,77p,10451b,1670s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (11 pages, 860779 bytes).
+ 57i,18n,80p,10451b,1686s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/
+usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2017/texmf-dist/fo
+nts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2017/texmf-dist/fonts/
+type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
+1/public/cm-super/sfti1200.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
+public/cm-super/sftt1200.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ur
+w/helvetic/uhvb8a.pfb>
+Output written on main.pdf (18 pages, 1887858 bytes).
 PDF statistics:
- 1354 PDF objects out of 1440 (max. 8388607)
- 520 compressed objects within 6 object streams
- 37 named destinations out of 1000 (max. 500000)
- 246 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1649 PDF objects out of 1728 (max. 8388607)
+ 727 compressed objects within 8 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 332 words of extra memory for PDF output out of 10000 (max. 10000000)
 

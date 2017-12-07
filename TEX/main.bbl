@@ -16,5 +16,172 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{goswami}{article}{}
+      \name{author}{2}{}{%
+        {{hash=083d3145ac6b0bce2ae6e56b065dcc42}{%
+           family={Goswami},
+           familyi={G\bibinitperiod},
+           given={Sanchari},
+           giveni={S\bibinitperiod}}}%
+        {{hash=59776ade6ee05d5367db88e9b7ce2d87}{%
+           family={Sen},
+           familyi={S\bibinitperiod},
+           given={Parongama},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{74b8593cbb01ba35a76e98c28d4fa29f}
+      \strng{fullhash}{74b8593cbb01ba35a76e98c28d4fa29f}
+      \strng{authornamehash}{74b8593cbb01ba35a76e98c28d4fa29f}
+      \strng{authorfullhash}{74b8593cbb01ba35a76e98c28d4fa29f}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0378-4371}
+      \field{journaltitle}{Physica A: Statistical Mechanics and its Applications}
+      \field{number}{Supplement C}
+      \field{title}{Agent based models for wealth distribution with preference in interaction}
+      \field{volume}{415}
+      \field{year}{2014}
+      \field{pages}{514\bibrangedash 524}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.physa.2014.08.018
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0378437114006967
+      \endverb
+      \keyw{Pareto exponent,Kinetic theory,Preferential attachment,Network properties}
+    \endentry
+    \entry{marketcrash}{article}{}
+      \name{author}{3}{}{%
+        {{hash=48ce7d58795e694a8c1afd4e69c712e4}{%
+           family={Hudomiet},
+           familyi={H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=87476127bfc020e50aa100560c3d5ce5}{%
+           family={Kezdi},
+           familyi={K\bibinitperiod},
+           given={Gabor},
+           giveni={G\bibinitperiod}}}%
+        {{hash=84cb30b67ec5f5917fb960339ef67b25}{%
+           family={Willis},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley & Sons, Ltd.}%
+      }
+      \strng{namehash}{63d8e8552fe934157245d780d215ea7d}
+      \strng{fullhash}{63d8e8552fe934157245d780d215ea7d}
+      \strng{authornamehash}{63d8e8552fe934157245d780d215ea7d}
+      \strng{authorfullhash}{63d8e8552fe934157245d780d215ea7d}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1099-1255}
+      \field{journaltitle}{Journal of Applied Econometrics}
+      \field{number}{3}
+      \field{title}{Stock market crash and expectations of American households}
+      \field{volume}{26}
+      \field{year}{2011}
+      \field{pages}{393\bibrangedash 415}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1002/jae.1226
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1002/jae.1226
+      \endverb
+    \endentry
+    \entry{paretoslaw}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1bee0488a3dc83c7562625ab4d217b53}{%
+           family={Lausanne},
+           familyi={L\bibinitperiod},
+           given={F.\bibnamedelimi Rouge.},
+           giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{1bee0488a3dc83c7562625ab4d217b53}
+      \strng{fullhash}{1bee0488a3dc83c7562625ab4d217b53}
+      \strng{authornamehash}{1bee0488a3dc83c7562625ab4d217b53}
+      \strng{authorfullhash}{1bee0488a3dc83c7562625ab4d217b53}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Cours d'économie politique professé à l'Universi̧té de Lausanne.}
+      \field{title}{PARETO, V. (1896)}
+      \field{year}{1896}
+    \endentry
+    \entry{patriarca}{article}{}
+      \name{author}{3}{}{%
+        {{hash=86217e977d22e093bc9c3adca7529f8f}{%
+           family={Patriarca},
+           familyi={P\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=15476df4b3fff8858fe904c4d47e8697}{%
+           family={Chakraborti},
+           familyi={C\bibinitperiod},
+           given={Anirban},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a6da2ff46a3917a7425c3a39e33c1714}{%
+           family={Kaski},
+           familyi={K\bibinitperiod},
+           given={Kimmo},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{76394ce34b72e136ff06382730d63058}
+      \strng{fullhash}{76394ce34b72e136ff06382730d63058}
+      \strng{authornamehash}{76394ce34b72e136ff06382730d63058}
+      \strng{authorfullhash}{76394ce34b72e136ff06382730d63058}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0378-4371}
+      \field{journaltitle}{Physica A: Statistical Mechanics and its Applications}
+      \field{note}{News and Expectations in Thermostatistics}
+      \field{number}{1}
+      \field{title}{Gibbs versus non-Gibbs distributions in money dynamics}
+      \field{volume}{340}
+      \field{year}{2004}
+      \field{pages}{334\bibrangedash 339}
+      \range{pages}{6}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.physa.2004.04.024
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0378437104004327
+      \endverb
+      \keyw{Econophysics,Money dynamics,Gamma distribution,Gibbs distribution}
+    \endentry
+    \entry{publisher}{article}{}
+      \field{sortinit}{t}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeltitlesource}{title}
+      \field{issn}{1386-4181}
+      \field{journaltitle}{Journal of Financial Markets}
+      \field{title}{Editorial Board}
+      \field{volume}{36}
+      \field{year}{2017}
+      \field{pages}{IFC\bibrangedash}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S1386-4181(17)30290-2
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1386418117302902
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
 \endinput
 

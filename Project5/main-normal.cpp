@@ -6,7 +6,6 @@
 #include <random>
 #include <armadillo>
 #include <string>
-#include <mpi.h>
 #include <boost/timer.hpp>
 using namespace  std;
 using namespace arma;
@@ -28,7 +27,7 @@ int main(int argc, char* argv[])
   string filename;
   int Nagents = 1000;
   int MCcycles = int(pow(10,7));
-  int simulations = 20;
+  int simulations = 40;
   double mu,intial_money;
 
 
@@ -46,32 +45,19 @@ int main(int argc, char* argv[])
   }
   intial_money = 1;
 
-
-  // parallelization - START
-  int my_rank, numprocs;
-  MPI_Init (&argc, &argv);
-  MPI_Comm_size (MPI_COMM_WORLD, &numprocs);
-  MPI_Comm_rank (MPI_COMM_WORLD, &my_rank);
-  
-
-  int progress = 1;
   mat Agents = ones<mat>(Nagents,simulations)*intial_money;
   
   for(int i = 0; i < simulations; i++){
 
-    
-    // Progress bar
-    Progress_bar(my_rank,simulations,i,progress);
-    
     // 
     // pick assignment
     // 
 
     vec Simualation_Agents = ones<vec>(Nagents)*intial_money;
     
-    // Assignment_A(Nagents, MCcycles, mu + 0.30*my_rank, Simualation_Agents);
-    Assignment_D(Nagents, MCcycles, mu, Simualation_Agents, 0.5 + my_rank*0.5);
-    // Assignment_E(Nagents, MCcycles, mu, Simualation_Agents, 1,1 + 1*my_rank);
+    Assignment_A(Nagents, MCcycles, mu + 0.30, Simualation_Agents);
+    // Assignment_D(Nagents, MCcycles, mu, Simualation_Agents, 0.5);
+    // Assignment_E(Nagents, MCcycles, mu, Simualation_Agents, 1,1);
 
     // Fill matrix with data for a simulation
     for(int nr = 0; nr < Nagents; nr++){
@@ -92,15 +78,11 @@ int main(int argc, char* argv[])
   }
   
   // write to file
-  string fileout = filename+"_"+to_string(1 + my_rank)+".txt";
+  string fileout = filename+"_.txt";
   ofile.open(fileout);
   ofile << "X" << setw(15) << "Y" << endl;
   WriteResultstoFile(intervales,length);
   
-
-  Progress_bar_done(my_rank);
-  MPI_Finalize();
-  // parallelization - END
   
   return 0;
 }
@@ -223,58 +205,4 @@ void WriteResultstoFile(vec intervales, int length)
     ofile << setw(15) << setprecision(8) << intervales(i)/normed << endl;
   }
 } // end output function
-
-
-
-void Progress_bar(int my_rank,int simulations,int i, int& progress)
-{
-  // PROGRESSBAR
-  int length = 10;
-  if(my_rank >= 0){
-    if ((i) % (simulations/length) == 0){
-      string output = "";
-      for(int line = 0; line < my_rank+1; line++){
-        output += "\n";
-      }
-      if(progress > 1){
-        output += "Thread: "+to_string(my_rank+1)+"   0%";
-        for(int nr = 0; nr < progress; nr++){
-          output += "#";
-        }
-        for(int nr = 0; nr < length-progress; nr++){
-          output += "-";
-        }
-        output += "100%";
-      }
-      
-      for(int line = 0; line < my_rank +1; line++){
-        output += "\n\x1b[A\x1b[A";
-      }
-      if(progress == 1){
-        if(my_rank != 0){
-          cout << "\x1b[A\x1b[A";
-        } else {
-          cout << "\x1b[A";
-        }        
-      }
-      cout << output;
-      progress++;
-    }
-  }
-}
-
-void Progress_bar_done(int my_rank)
-{
-  // PROGRESSBAR - DONE
-  string output = "";
-  for(int line = 0; line < my_rank+1; line++){
-    output += "\n";
-  }
-  output += "Thread: "+to_string(my_rank+1)+"   ------DONE------";
-  for(int line = 0; line < my_rank +1; line++){
-    output += "\n\x1b[A\x1b[A";
-  }
-  cout << output;
-}
-
 

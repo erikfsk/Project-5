@@ -1,0 +1,38 @@
+\section{Computational theory}
+
+This project consists of four different cases with a different degree of complexity. For the basis case and the savings case it is enough to use the Monte carlo method. The Monte Carlo method is a method that utilizes the fact that a large number of experiments converges towards the expectation value. When the probability of doing a transaction is added the system utilizes the Metropolis Algorithm is implemented. The system has to do a random choice of acceptance or denial of the trade. This random choice is done with the Random Number Generator. A random number i created between $(0-1)$ If the number is less than the probability term, accept the new state. If the number is greater than the energy change then discard the change. The procedure is outlined in four steps.
+
+\begin{itemize}
+	\item Chose two agents at random.
+	\item Find the probability of acceptance for this new case 
+	\item A RNG is used to chose a number between $(0-1)$. Now if the probability term is less then the RNG number, reject the transaction and discard the trade. If not, accept the trade.
+	\item Choose a new random number for how much is traded between the two($\epsilon$). 
+	\item Update the system with the transfered money.
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
