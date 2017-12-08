@@ -100,25 +100,49 @@
       \verb http://dx.doi.org/10.1002/jae.1226
       \endverb
     \endentry
-    \entry{paretoslaw}{article}{}
+    \entry{proofgibbsdist}{article}{}
       \name{author}{1}{}{%
-        {{hash=1bee0488a3dc83c7562625ab4d217b53}{%
-           family={Lausanne},
+        {{hash=ce5effd83d521b8e43ea866ae0507297}{%
+           family={Lanchier},
            familyi={L\bibinitperiod},
-           given={F.\bibnamedelimi Rouge.},
-           giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
       }
-      \strng{namehash}{1bee0488a3dc83c7562625ab4d217b53}
-      \strng{fullhash}{1bee0488a3dc83c7562625ab4d217b53}
-      \strng{authornamehash}{1bee0488a3dc83c7562625ab4d217b53}
-      \strng{authorfullhash}{1bee0488a3dc83c7562625ab4d217b53}
+      \strng{namehash}{ce5effd83d521b8e43ea866ae0507297}
+      \strng{fullhash}{ce5effd83d521b8e43ea866ae0507297}
+      \strng{authornamehash}{ce5effd83d521b8e43ea866ae0507297}
+      \strng{authorfullhash}{ce5effd83d521b8e43ea866ae0507297}
       \field{sortinit}{L}
       \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{booktitle}{Journal of Statistical Physics}
+      \field{month}{01}
+      \field{title}{Rigorous Proof of the Boltzmann–Gibbs Distribution of Money on Connected Graphs}
+      \field{year}{2017}
+    \endentry
+    \entry{paretoslaw}{article}{}
+      \name{author}{1}{}{%
+        {{hash=28c8818e3830501264261714736e21c4}{%
+           family={Pareto},
+           familyi={P\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{28c8818e3830501264261714736e21c4}
+      \strng{fullhash}{28c8818e3830501264261714736e21c4}
+      \strng{authornamehash}{28c8818e3830501264261714736e21c4}
+      \strng{authorfullhash}{28c8818e3830501264261714736e21c4}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{howpublished}{Cours d'économie politique professé à l'Universi̧té de Lausanne.}
-      \field{title}{PARETO, V. (1896)}
-      \field{year}{1896}
+      \field{title}{Cours d’economie politique}
+      \field{year}{1897}
+      \verb{url}
+      \verb https://www.institutcoppet.org/2012/05/08/cours-deconomie-politique-1896-de-vilfredo-pareto
+      \endverb
     \endentry
     \entry{patriarca}{article}{}
       \name{author}{3}{}{%

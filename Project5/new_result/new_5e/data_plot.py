@@ -18,7 +18,7 @@ for txtfile in txtfiles:
 	data = data_dict(txtfile)
 	label_text = label_(txtfile)
 	plot_semi("1","00",data,txtfile,label_text)
-make_plot("5e-1-00-log.pdf")
+make_plot("5e-1-00-loglog.pdf")
 
 
 
@@ -34,7 +34,7 @@ for txtfile in txtfiles:
 	data = data_dict(txtfile)
 	label_text = label_(txtfile)
 	plot_semi("1","50",data,txtfile,label_text)
-make_plot("5e-1-50-log.pdf")
+make_plot("5e-1-50-loglog.pdf")
 
 
 
@@ -50,7 +50,7 @@ for txtfile in txtfiles:
 	data = data_dict(txtfile)
 	label_text = label_(txtfile)
 	plot_semi("1","90",data,txtfile,label_text)
-make_plot("5e-1-90-log.pdf")
+make_plot("5e-1-90-loglog.pdf")
 
 
 
@@ -66,7 +66,7 @@ for txtfile in txtfiles:
 	data = data_dict(txtfile)
 	label_text = label_(txtfile)
 	plot_semi("2","00",data,txtfile,label_text)
-make_plot("5e-2-00-log.pdf")
+make_plot("5e-2-00-loglog.pdf")
 
 
 
@@ -82,7 +82,7 @@ for txtfile in txtfiles:
 	data = data_dict(txtfile)
 	label_text = label_(txtfile)
 	plot_semi("2","50",data,txtfile,label_text)
-make_plot("5e-2-50-log.pdf")
+make_plot("5e-2-50-loglog.pdf")
 
 
 
@@ -98,4 +98,4 @@ for txtfile in txtfiles:
 	data = data_dict(txtfile)
 	label_text = label_(txtfile)
 	plot_semi("2","90",data,txtfile,label_text)
-make_plot("5e-2-90-log.pdf")
+make_plot("5e-2-90-loglog.pdf")

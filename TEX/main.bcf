@@ -2148,8 +2148,10 @@
     <bcf:citekey order="3">paretoslaw</bcf:citekey>
     <bcf:citekey order="4">patriarca</bcf:citekey>
     <bcf:citekey order="5">goswami</bcf:citekey>
-    <bcf:citekey order="6">patriarca</bcf:citekey>
-    <bcf:citekey order="7">goswami</bcf:citekey>
+    <bcf:citekey order="6">paretoslaw</bcf:citekey>
+    <bcf:citekey order="7">proofgibbsdist</bcf:citekey>
+    <bcf:citekey order="8">patriarca</bcf:citekey>
+    <bcf:citekey order="9">goswami</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

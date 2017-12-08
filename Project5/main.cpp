@@ -28,7 +28,7 @@ int main(int argc, char* argv[])
   string filename;
   int Nagents = 1000;
   int MCcycles = int(pow(10,7));
-  int simulations = 20;
+  int simulations = 1000;
   double mu,intial_money;
 
 
@@ -56,7 +56,7 @@ int main(int argc, char* argv[])
 
   int progress = 1;
   mat Agents = ones<mat>(Nagents,simulations)*intial_money;
-  
+
   for(int i = 0; i < simulations; i++){
 
     
@@ -67,8 +67,8 @@ int main(int argc, char* argv[])
     // pick assignment
     // 
 
-    vec Simualation_Agents = ones<vec>(Nagents)*intial_money;
     
+    vec Simualation_Agents = ones<vec>(Nagents)*intial_money;
     // Assignment_A(Nagents, MCcycles, mu + 0.30*my_rank, Simualation_Agents);
     Assignment_D(Nagents, MCcycles, mu, Simualation_Agents, 0.5 + my_rank*0.5);
     // Assignment_E(Nagents, MCcycles, mu, Simualation_Agents, 1,1 + 1*my_rank);
@@ -82,7 +82,7 @@ int main(int argc, char* argv[])
 
 
   // Make a histogram data to write to file 
-  int length = 1000;
+  int length = 2000;
   vec intervales = zeros(length);
   for(int i = 0; i < Nagents; i++){
     for(int j = 0; j < simulations; j++){
@@ -92,7 +92,7 @@ int main(int argc, char* argv[])
   }
   
   // write to file
-  string fileout = filename+"_"+to_string(1 + my_rank)+".txt";
+  string fileout = filename+"_"+to_string(my_rank)+".txt";
   ofile.open(fileout);
   ofile << "X" << setw(15) << "Y" << endl;
   WriteResultstoFile(intervales,length);

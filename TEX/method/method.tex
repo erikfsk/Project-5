@@ -5,7 +5,7 @@
 The algorithm was implemented as discussed in section \ref{sec:algorithm} in the program called main.cpp. main.cpp has some functions for different versions of the stock market. The difference between the versions are how likely it is that two random agents will trade. For more insight see section \ref{sec:...}.\footnote{All of the programs discussed in this section can be found at \href{https://github.com/erikfsk/Project-5/tree/master/Project5}{\color{blue}{github}}}.
 \\
 \\
-Many different simulations is needed for this report. This is why a parallelized version has been made. MPI is used since it is easy to implement. Most of the code in the parallelized version is the same as for the non-parallelized. The parallelized version should then be X times faster then the normal version with X cores. Each thread and runs the simulations for some given values for $\alpha$, $\lambda$ and $\gamma$. The values is determined by the rank of the thread and will therefor be unique to other thread's values.\footnotemark
+Many different simulations is needed for this report. This is why a parallelized version has been made. MPI is used since it is easy to implement. Most of the code in the parallelized version is the same as for the non-parallelized. The parallelized version should then be X times faster then the normal version with X cores. Each thread and runs the simulations for some given values for $\alpha$, $\lambda$ and $\gamma$. The values is determined by the rank of the thread and will therefor be unique to other thread's values.\footnote{\href{https://www.intel.com/content/www/us/en/architecture-and-technology/hyper-threading/hyper-threading-technology.html}{\color{blue}{Intel Hyper-Threading Technology}}}
 
 
 \begin{center}
@@ -23,8 +23,6 @@ Many different simulations is needed for this report. This is why a parallelized
 \end{tabularx}
 \end{center}
 
-
-\footnotetext{\href{https://www.intel.com/content/www/us/en/architecture-and-technology/hyper-threading/hyper-threading-technology.html}{\color{blue}{Intel Hyper-Threading Technology}}}
 
 \begin{center}
 \label{tab:expected-time}
@@ -71,8 +69,9 @@ For scaling we expect a time increased proportional to the size increase. The ta
     \caption{A progress bar was made for the program. It shows the progress for each individual thread. The progress bar works for 1 to 4 threads. More then 4 threads might look funny. By the way, we are A students in the newly announced PRO101 subject. }
     \label{fig:progress}
 \end{figure}
-\footnotemark
-\footnotetext{
+
+
+\footnote{
     \href
     {https://shortridgedailyecho.org/wp-content/uploads/2017/08/definition-procrastination.png}
     {

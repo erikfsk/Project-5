@@ -9,7 +9,7 @@ def c_ij(x,gamma):
 x = linspace(1,0,1000)
 
 for i in range(5):
-	plot(x,c_ij(x,i),"-",linewidth=2,label="$\gamma$ = "+str(i))
+	plot(x,100*c_ij(x,i),"-",linewidth=2,label="$\gamma$ = "+str(i))
 
 xlabel("Ratio [$C_{ij}$ / $C_{ij}$ $_{max}}$]",fontsize=20)
 ylabel("Probability [%]",fontsize=20)
@@ -18,7 +18,7 @@ xticks(fontsize=20)
 yticks(fontsize=20)
 
 xlim(1,0)
-ylim(0,1.01)
+ylim(0,101)
 grid("on")
 tight_layout()
 legend(loc="best",fontsize=20)
@@ -42,8 +42,8 @@ x = linspace(0.01,10,1000)
 
 colors = ["k","b","g","r","m"]
 for i in range(4,-1,-1):
-	y = [p_ij(j,i) for j in x]
-	y2 = [p_ij_wrong(j,i) for j in x]
+	y = [p_ij(j,i)*100 for j in x]
+	y2 = [p_ij_wrong(j,i)*100 for j in x]
 	plot(x,y2,"%s--"% colors[i])
 	plot(x,y,"%s-"%colors[i],linewidth=2,label="$\\alpha$ = "+str(i*0.5))
 
@@ -54,7 +54,7 @@ xticks(fontsize=20)
 yticks(fontsize=20)
 
 xlim(0,5)
-ylim(0,2)
+ylim(0,200)
 grid("on")
 tight_layout()
 legend(loc="best",fontsize=20)

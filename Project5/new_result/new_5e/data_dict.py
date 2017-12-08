@@ -31,7 +31,7 @@ def make_plot(savefile):
 	tight_layout()
 	legend(loc="best",fontsize=20)
 	savefig(savefile ,bbox_inches="tight")
-	clf()
+	show()
 
 def plot_plot(constraint1, constraint2, data, txtfile, label_text):
 	if constraint1 == txtfile[2:3] and constraint2  == txtfile[-8:-6]:
@@ -49,12 +49,12 @@ def plot_plot(constraint1, constraint2, data, txtfile, label_text):
 def plot_semi(constraint1, constraint2, data, txtfile, label_text):
 	if constraint1 == txtfile[2:3] and constraint2  == txtfile[-8:-6]:
 		if 0 == int(txtfile[-5:-4]):
-			semilogy(data["X"],data["Y"]*100,"k-",label=label_text)
+			loglog(data["X"],data["Y"]*100,"k-",label=label_text)
 		elif 1 == int(txtfile[-5:-4]):
-			semilogy(data["X"],data["Y"]*100,"b-",label=label_text)
+			loglog(data["X"],data["Y"]*100,"b-",label=label_text)
 		elif 2 == int(txtfile[-5:-4]):
-			semilogy(data["X"],data["Y"]*100,"g-",label=label_text)
+			loglog(data["X"],data["Y"]*100,"g-",label=label_text)
 		elif 3 == int(txtfile[-5:-4]):
-			semilogy(data["X"],data["Y"]*100,"r-",label=label_text)
+			loglog(data["X"],data["Y"]*100,"r-",label=label_text)
 		elif 4 == int(txtfile[-5:-4]):
-			semilogy(data["X"],data["Y"]*100,"m-",label=label_text)
+			loglog(data["X"],data["Y"]*100,"m-",label=label_text)

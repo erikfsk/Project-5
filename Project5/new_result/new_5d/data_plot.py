@@ -13,6 +13,7 @@ for txtfile in txtfiles:
 	label_text = "$\lambda = $" + str(float(txtfile[2:4])/100)
 	label_text += "   $\\alpha = $" + str(0.5 + int(txtfile[-5:-4])*0.5)
 	if "00" in txtfile or "50" in txtfile:
+		print sum(data["Y"][:len(data["Y"])/10]),int(txtfile[-5:-4]) 
 		if 0 == int(txtfile[-5:-4]):
 			plot(data["X"],data["Y"]*100,"k-",label=label_text)
 		elif 1 == int(txtfile[-5:-4]):
