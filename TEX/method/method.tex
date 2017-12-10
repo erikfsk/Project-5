@@ -2,7 +2,7 @@
 \section{Implementation}
 
 
-The algorithm was implemented as discussed in section \ref{sec:algorithm} in the program called main.cpp. main.cpp has some functions for different versions of the stock market. The difference between the versions are how likely it is that two random agents will trade. For more insight see section \ref{sec:...}.\footnote{All of the programs discussed in this section can be found at \href{https://github.com/erikfsk/Project-5/tree/master/Project5}{\color{blue}{github}}}.
+The algorithm was implemented as discussed in section \ref{sec:comp-theory} in the program called main.cpp. main.cpp has some functions for different versions of the stock market. The difference between the versions are how likely it is that two random agents will trade. For more insight see section \ref{sec:phys-theory}.\footnote{All of the programs discussed in this section can be found at \href{https://github.com/erikfsk/Project-5/tree/master/Project5}{\color{blue}{github}}}.
 \\
 \\
 Many different simulations is needed for this report. This is why a parallelized version has been made. MPI is used since it is easy to implement. Most of the code in the parallelized version is the same as for the non-parallelized. The parallelized version should then be X times faster then the normal version with X cores. Each thread and runs the simulations for some given values for $\alpha$, $\lambda$ and $\gamma$. The values is determined by the rank of the thread and will therefor be unique to other thread's values.\footnote{\href{https://www.intel.com/content/www/us/en/architecture-and-technology/hyper-threading/hyper-threading-technology.html}{\color{blue}{Intel Hyper-Threading Technology}}}

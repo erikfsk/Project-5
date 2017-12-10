@@ -1,4 +1,4 @@
-\section{Physical theory}
+\section{Physical theory}\label{sec:phys-theory}
 \subsection{Basics}\label{sec:basics}
 
  From empirical studies Pareto has been shown that the higher end of a distribution of money follows the distribution trend\cite{paretoslaw}:
@@ -78,11 +78,11 @@ The model has up until now only varied how much is saved and not touched on if t
 	p_{ij}\propto \abs{m_i-m_j}^{-\alpha}\label{eq:willingness}
 \end{align}
 
-for an interaction to take place between two agents with respectively $m_i$ and $m_j$ wealth. The variable $\alpha$ is larger than zero. If $\alpha$ is zero one get the same model as for \ref{savings}. Several runs will be done with varying $\alpha$ to analyze the effect of the probability term on the expression.
+for an interaction to take place between two agents with respectively $m_i$ and $m_j$ wealth. The variable $\alpha$ is larger than zero. If $\alpha$ is zero one get the same model as in section \ref{sec:savings}. Several runs will be done with varying $\alpha$ to analyze the effect of the probability term on the expression.
 
 \subsubsection{Normalization}
 \label{sec:normalization1}
-The expression for the willingness to trade \ref{willingness} is not normalized. If one chooses a value less than one the expression will blow up and the probability becomes larger than one.\\
+The equation \ref{eq:willingness} is not normalized. If one chooses a value less than one the expression will blow up and the probability becomes larger than one.\\
 
 \begin{figure}[H]
 \centering
@@ -92,7 +92,7 @@ The expression for the willingness to trade \ref{willingness} is not normalized.
 \end{figure}
 
 
-To prevent unrealistic probabilities above one a normalization criteria is introduced. The suggested normalization criteria on piazza is to normalize it with the expectation value of the agents $\langle m\rangle$.\footnote{\href{https://piazza.com/class/j6owewp05ym46p?cid=126}{\color{blue}{Piazza: Morten's suggestion} }} From \ref{basics} the expectation value $\langle m\rangle=1\$$. So dividing by this will not change this expression. The other change is to add a factor of two to the probability, $2\abs{m_i-m_j}^\alpha/\langle m\rangle$ because the normalization gives an overall decrease in all the probabilities. This is not included because of the way the expectation value is defined here gives no change in the probability. The last piece in the normalization is to remove the probabilities higher than one, although it is not important for this part it will be important in the next section. All probabilities higher than one is synthetically sat to one. The physical representation is that if two agents has a difference in wealth that is less than one, a trade is guarantied.\\
+To prevent unrealistic probabilities above one a normalization criteria is introduced. The suggested normalization criteria on piazza is to normalize it with the expectation value of the agents $\langle m\rangle$.\footnote{\href{https://piazza.com/class/j6owewp05ym46p?cid=126}{\color{blue}{Piazza: Morten's suggestion} }} From \ref{sec:basics} the expectation value $\langle m\rangle=1\$$. So dividing by this will not change this expression. The other change is to add a factor of two to the probability, $2\abs{m_i-m_j}^\alpha/\langle m\rangle$ because the normalization gives an overall decrease in all the probabilities. This is not included because of the way the expectation value is defined here gives no change in the probability. The last piece in the normalization is to remove the probabilities higher than one, although it is not important for this part it will be important in the next section. All probabilities higher than one is synthetically sat to one. The physical representation is that if two agents has a difference in wealth that is less than one, a trade is guarantied.\\
 
 \begin{align} 
 p_{ij}=
@@ -141,7 +141,7 @@ p_{ij}=
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.5\linewidth]{theory/bilder/interactions}
+\includegraphics[width=0.7\linewidth]{theory/bilder/interactions}
 \caption{Figure shows the probability as a function of their trade ratio.}
 \label{fig:interactions}
 \end{figure}

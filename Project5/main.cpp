@@ -70,7 +70,7 @@ int main(int argc, char* argv[])
     
     vec Simualation_Agents = ones<vec>(Nagents)*intial_money;
     // Assignment_A(Nagents, MCcycles, mu + 0.30*my_rank, Simualation_Agents);
-    Assignment_D(Nagents, MCcycles, mu, Simualation_Agents, 0.5 + my_rank*0.5);
+    Assignment_D(Nagents, MCcycles, mu, Simualation_Agents, 5 + my_rank*my_rank*5);
     // Assignment_E(Nagents, MCcycles, mu, Simualation_Agents, 1,1 + 1*my_rank);
 
     // Fill matrix with data for a simulation
