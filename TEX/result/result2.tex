@@ -17,10 +17,10 @@ For the results to be representative it is important to have enough transactions
         \caption{}
         \label{fig:wealthForLambdaLog}
     \end{subfigure}
-    \caption{a) shows how the agents are distributed with respect to their wealth. b) log plot of the same distributions}
+    \caption{a) shows how the agents are distributed with respect to their wealth. b) log plot of the case where $\lambda = 0$}
 \end{figure}
 
-Figure \ref{fig:wealthForLambda} shows how the distribution changes depending on the savings parameter $\lambda$ (which is equal for all agents). When the agents always allow for their entire wealth to be part of a transaction we get a gibbs distribution. We see that a few agents are very wealthy compared to the majority who are rather poor. When the agents are allowed to save a certain amount of their wealth (i.e. exclude a fraction of their wealth from taking part of a transaction) there are both major and minor changes to the wealth distribution. The most striking feature being the reduction in number of very poor agents, even at low savings. The chance of loosing even more money if you are alrady poor is diminished if you save some of your money before agreeing to a transaction. At the other end of the scale we see that only a large $\lambda$ will influence the distribution of very wealthy agents. As the saving parameter is increased further a peak is introduced to the distribution. As $\lambda\rightarrow 1$ the position of this peak approaches one (the average wealth). The deviation in the distribution from this peak is also narrowed. For the extreme case where $\lambda=1$ no money is allowed to be part of transactions so the system remains in the initial state where every agent is equally wealthy. A fitting of these curves as given in the paper by Patriarca et.al. \cite{patriarca} was found to be reproducable in our results. This function is given by the equation 
+Figure \ref{fig:wealthForLambda} shows how the distribution changes depending on the savings parameter $\lambda$ (which is equal for all agents). When the agents always allow for their entire wealth to be part of a transaction we get a gibbs distribution. We see that a few agents are very wealthy compared to the majority who are rather poor. When the agents are allowed to save a certain amount of their wealth (i.e. exclude a fraction of their wealth from taking part of a transaction) there are both major and minor changes to the wealth distribution. The most striking feature being the reduction in number of very poor agents, even at low savings. The chance of loosing even more money if you are alrady poor is diminished if you save some of your money before agreeing to a transaction. At the other end of the scale we see that only a large $\lambda$ will influence the distribution of very wealthy agents. As the saving parameter is increased further a peak is introduced to the distribution. As $\lambda\rightarrow 1$ the position of this peak approaches one (the average wealth). The deviation in the distribution from this peak is also narrowed. For the extreme case where $\lambda=1$ no money is allowed to be part of transactions so the system remains in the initial state where every agent is equally wealthy. A fitting of these curves as given in the paper by Patricia et.al. \cite{patriarca} was found to be reproducable in our results. This function is given by the equation 
 
 \begin{equation}
     P_n(x)=a_nx^{n-1}\exp{-nx}
@@ -64,14 +64,14 @@ For the following wealth distributions we have $\alpha\neq 0$ so that there is a
 
 The trends of the graphs in figure \ref{fig:5b} clearly indicates that the new model leads to a greater difference in the low end vs the high end of the distribution. The number of poor people increases with $\alpha$ while the number of rich people decreases. Again, it is important to note that the plots represent histograms of agents and their wealth. Since there now are more poor people the sum of their wealth represents a larger amount of the total wealth than if there was a smaller population of poor people. This means, as is confirmed by summation of the data, that the money is still conserved even though there are more poor people and fewer rich people. The plots seems to intersect at around 0.5, setting the boundary at which the wealth is separated.
 By studying the logarithmic plot we see that distribution lines actually intersect a second time. This means that the extremely rich actually get even richer if the population has a strong bias towards transacting with agents in their financial class. \footnote{Due to computational constraints we exclude the distribution of agents with $m_j\geq10$ which for this particular plot, unfortunately, would be of some interest. In any case it is still possible to get a decent idea of the distribution trends through the plot} \\
-The linear nature of the tails of the distributions in the logarithmic plot, particularly noticeable for higher values of $\alpha$, is a strong indicator of a power law and its slope hints at the value of the exponent in this power law. Thus an increase in alpha means that the tail end of the distribution follows a power law with a smaller (less negative i.e. smaller absolute value) exponent.\\
+The linear nature of the tails of the distributions in the logarithmic plot, particularly noticeable for higher values of $\alpha$, is a strong indicator of a power law and its slope hints at the value of the exponent in this power law. Thus an increase in alpha means that the tail end of the distribution follows a power law with a smaller (less negative) exponent.\\
 \begin{figure}[H]
     \centering
     \includegraphics[width = 0.7\linewidth]{result/5d-accu-persons-accu-money}
-    \caption{Accumulative percentage of total for both wealth and population. Dashed lines is for wealth, solid lines is population and dots corresponds to 50 \% of total wealth.}
+    \caption{}
     \label{fig:accu2}
 \end{figure}
-
+Figure \ref{fig:accu2} shows the accumulative percentage the same way as was shown earlier. 
 \begin{figure}[H]
     \begin{subfigure}{0.5\textwidth}
         \centering
