@@ -28,7 +28,7 @@ int main(int argc, char* argv[])
   string filename;
   int Nagents = 1000;
   int MCcycles = int(pow(10,7));
-  int simulations = 1000;
+  int simulations = 50;
   double mu,intial_money;
 
 
